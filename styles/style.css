@@ -1,0 +1,224 @@
+/*   Fonts   */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap');
+
+/*   Variables   */
+
+:root {
+  /* dark shades of primary color*/
+  --clr-primary-1: rgb(6, 50, 81);
+  --clr-primary-2: rgb(16, 78, 122);
+  --clr-primary-3: rgb(26, 106, 162);
+  --clr-primary-4: rgb(45, 135, 200);
+  /* primary/main color */
+  --clr-primary-5: rgb(73, 166, 233);
+  /* lighter shades of primary color */
+  --clr-primary-6: rgb(110, 190, 247);
+  --clr-primary-7: rgb(139, 203, 249);
+  --clr-primary-8: rgb(165, 213, 248);
+  --clr-primary-9: rgb(197, 229, 252);
+  --clr-primary-10: rgb(235, 247, 255);
+  /* darkest grey - used for headings */
+  --clr-grey-1: rgb(16, 42, 66);
+  --clr-grey-2: rgb(36, 58, 82);
+  --clr-grey-3: rgb(50, 77, 103);
+  --clr-grey-4: rgb(72, 100, 127);
+  /* grey used for paragraphs */
+  --clr-grey-5: rgb(97, 125, 152);
+  --clr-grey-6: rgb(130, 154, 176);
+  --clr-grey-7: rgb(158, 178, 199);
+  --clr-grey-8: rgb(188, 204, 220);
+  --clr-grey-9: rgb(218, 226, 236);
+  --clr-grey-10: rgb(241, 245, 248);
+  --clr-white: #fff;
+  --clr-red-dark: #bb2525;
+  --clr-red-light: #e66b6b;
+  --clr-green-dark: rgb(37, 187, 50);
+  --clr-green-light: rgb(107, 230, 117);
+  --clr-black: #222;
+  --ff-primary: Verdana, Geneva, Tahoma, sans-serif;
+  --ff-secondary: 'Open Sans', sans-serif;
+  --transition: all 0.3s linear;
+  --spacing: 0.1rem;
+  --radius: 0.25rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --max-width: 1170px;
+  --fixed-width: 620px;
+}
+
+
+/*  Global Styles   */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(223, 223, 223);
+}
+/* .main-container {
+  max-width: 90%;
+  margin: 0 auto;
+} */
+.logo {
+  display: block;
+  width: 150px;
+  height: auto;
+  margin-right: 90px;
+}
+@media (max-width: 350px){
+  .navbar-brand{
+    display: none;
+  }
+ 
+}
+@media (max-width: 1000px){
+  .accordion{
+    display: none;
+  }
+ 
+}
+
+.card-img{
+  max-width: 18rem;
+  /* height:auto; */
+  margin: 0 auto;
+}
+
+.badge{
+  background-color: var(--clr-primary-1);
+  border-radius: 50px;
+}
+
+/* Carousel imgages */
+
+.first-row {
+  /* max-height: 460px; */
+  overflow: hidden;
+}
+#carouselExampleCaptions img{
+ max-height: 100%;
+
+}
+
+
+/* reviews section */
+.title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.underline {
+  height: 0.25rem;
+  width: 5rem;
+  background: var(--clr-primary-5);
+  margin-left: auto;
+  margin-right: auto;
+}
+.reviews-container {
+  max-width: var(--fixed-width);
+}
+.review {
+  background: var(--clr-white);
+  padding: 1.5rem 2rem;
+  border-radius: var(--radius);
+  box-shadow: var(--light-shadow);
+  transition: var(--transition);
+  text-align: center;
+}
+.review:hover {
+  box-shadow: var(--dark-shadow);
+}
+.img-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+#person-img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+}
+.img-container::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f10e";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  transform: translateY(25%);
+  background: var(--clr-primary-5);
+  color: var(--clr-white);
+}
+.img-container::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: var(--clr-primary-5);
+  position: absolute;
+  top: -0.25rem;
+  right: -0.5rem;
+  border-radius: 50%;
+}
+#author {
+  margin-bottom: 0.25rem;
+}
+#job {
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  color: var(--clr-primary-5);
+  font-size: 0.85rem;
+}
+#info {
+  margin-bottom: 0.75rem;
+}
+.prev-btn,
+.next-btn {
+  color: var(--clr-primary-7);
+  font-size: 1.25rem;
+  background: transparent;
+  border-color: transparent;
+  margin: 0 0.5rem;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.prev-btn:hover,
+.next-btn:hover {
+  color: var(--clr-primary-5);
+}
+.random-btn {
+  margin-top: 0.5rem;
+  background: var(--clr-primary-10);
+  color: var(--clr-primary-5);
+  padding: 0.25rem 0.5rem;
+  text-transform: capitalize;
+  border-radius: var(--radius);
+  transition: var(--transition);
+  border-color: var(--clr-primary-5);
+  cursor: pointer;
+}
+.random-btn:hover {
+  background: var(--clr-primary-5);
+  color: var(--clr-primary-1);
+}
+
+/* =============== 
+      Contact 
+================== */
+
+.textarea {
+  resize: vertical;
+  max-height: 20vh;
+}
