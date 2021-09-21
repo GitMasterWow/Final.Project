@@ -214,11 +214,29 @@ body {
   color: var(--clr-primary-1);
 }
 
-/* =============== 
+/* 
+=============== 
       Contact 
-================== */
+===============
+*/
 
 .textarea {
   resize: vertical;
   max-height: 20vh;
+}
+
+
+
+/* 
+===============
+Admin Page
+===============
+*/
+.table-img {
+  width: 5vw;
+  height: auto;
+}
+
+.remove-btn {
+  background: none;
 }

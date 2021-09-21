@@ -56,6 +56,7 @@
                   Accesories
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./accesories-peripherals.html">Monitors</a></li>
                   <li><a class="dropdown-item" href="./accesories-peripherals.html">Keyboards and mice</a></li>
                   <li><a class="dropdown-item" href="./accesories-peripherals.html">Headphones</a></li>
                   <li><a class="dropdown-item" href="./accesories-peripherals.html">Speakers</a></li>
@@ -88,14 +89,13 @@
 
 
       <!-- Add product Area-->
-       
       <!-- Add product button -->
        <div class="container my-5">
-        <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap"><i class="fas fa-plus"></i> Add new product</button>
+        <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#add-product-modal" data-bs-whatever="@getbootstrap"><i class="fas fa-plus"></i> Add new product</button>
        </div>
 
       <!-- Add product modal  -->
-              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal fade" id="add-product-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-xl">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -133,8 +133,57 @@
                   </div>
                 </div>
               </div>
-     
 
+              
+     
+      <!-- Products list  -->
+      <div class="container table-container">
+        <table class="table caption-top border-info">
+          <caption><h2>List of products</h2></caption>
+          <thead>
+            <tr>
+              <th scope="col">Image</th>
+              <th scope="col">Name</th>
+              <th scope="col">Price</th>
+              <th scope="col">Quantity</th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><img src="https://p1.akcdn.net/full/402110976.asus-geforce-gtx-1060-dual-oc-6gb-gddr5-192bit-dual-gtx1060-o6g.jpg" 
+                alt="gtx1060" class="table-img"></td>
+              <td>Nvidia GTX1060 6Gb</td>
+              <td>230$</td>
+              <td>34</td>
+              <td><button type="button" class="text-primary p-2 border-0 remove-btn" data-bs-toggle="modal" data-bs-target="#remove-product">Remove</button></td>
+            </tr>
+            <tr>
+              <td><img src="https://p1.akcdn.net/full/402110976.asus-geforce-gtx-1060-dual-oc-6gb-gddr5-192bit-dual-gtx1060-o6g.jpg" 
+                alt="gtx1060" class="table-img"></td>
+              <td>Nvidia GTX1060 6Gb</td>
+              <td>230$</td>
+              <td>34</td>
+              <td><button type="button" class="text-primary p-2 border-0 remove-btn" data-bs-toggle="modal" data-bs-target="#remove-product">Remove</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+      <!-- Remove product modal -->
+      <div class="modal" id="remove-product" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+              <p>Are you sure you want to delete this product? Please confirm.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No, go back.</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Yes, delete product.</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
 
