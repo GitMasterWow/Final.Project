@@ -84,12 +84,6 @@ a {
   }
 }
 
-.card-img {
-  max-width: 18rem;
-  /* height:auto; */
-  margin: 0 auto;
-}
-
 .badge {
   background-color: var(--clr-primary-1);
   border-radius: 50px;
@@ -100,13 +94,7 @@ a {
 #carouselExampleCaptions img {
   max-height: 100%;
 }
-
-/* card styles */
-.card {
-  box-shadow: var(--light-shadow);
-}
-
-/* 
+/*
 ==============
 reviews section 
 ==============
@@ -212,8 +200,29 @@ Admin Page
   max-width: 20vw;
 }
 
-/* .card-img-top {
+/* Product cards */
+.card-img-top {
   margin: 0 auto;
-  width: 200px;
+  width: 100%;
   height: 150px;
-} */
+}
+
+.card {
+  box-shadow: var(--light-shadow);
+  max-width: 18rem;
+}
+.card-img {
+  max-width: 18rem;
+  /* height:auto; */
+  margin: 0 auto;
+}
+
+/* Dashboard links-sidebar on pages with categories */
+
+@media (min-width: 994px) {
+  .dashboard-links {
+    position: fixed;
+    top: 100px;
+    left: 0px;
+  }
+}

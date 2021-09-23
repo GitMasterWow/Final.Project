@@ -9,14 +9,14 @@ fetch("products-data.json")
 
 // pot dolosi asta pt un event listener pt navigatie si sidebar
 function showproducts(data) {
-  if (data.category == true) {
-  }
+  // if (data.category == true) {
+  // }
   let output = "";
   data.forEach((product) => {
-    if (product.category == "CPUs") {
-      output += `
-            <div class="col mb-5">
-                <div class="card h-100 col-xl-3 col-md-6 col-sm-11">
+    // if (product.category == "CPUs") {
+    output += `
+            
+                <div class="card col-md-4 m-3 col-sm-6 col-xl-3">
                     <!-- Product image-->
                     <img class="card-img-top" src=${product.image} alt=${product.name} />
                     <!-- Product details-->
@@ -25,17 +25,16 @@ function showproducts(data) {
                             <!-- Product name-->
                             <h5 class="fw-bolder">${product.name}</h5>
                             <!-- Product price-->
-                            <h5>${product.price}</h5>
+                            <h5>$ ${product.price}</h5>
                         </div>
                     </div>
                     <!-- Product actions-->
                     <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Details</a></div>
                     </div>
-                </div>
             </div>
             `;
-    }
+    //}
 
     productsContainer.innerHTML = output;
   });
