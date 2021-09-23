@@ -1,0 +1,642 @@
+[
+  {
+    "name": "Intel Core i3-10100",
+    "image": "https://thumbs.dreamstime.com/z/maykop-russia-november-intel-core-i-desktop-processor-th-gen-box-white-background-133008988.jpg",
+    "price": 169.99,
+    "description": "Intel Core i3-10100 - Core i3 10th Gen Comet Lake Quad-Core 3.6 GHz LGA 1200 65W Intel UHD Graphics 630 Desktop Processor",
+    "quantity": 95,
+    "category": "CPUs",
+    "mainCategory": "Components",
+    "id": "1"
+  },
+  {
+    "name": "AMD Ryzen 7 5800X",
+    "image": "https://thumbs.dreamstime.com/z/processor-ryzen-uzhgorod-ukraine-october-box-white-background-202829793.jpg",
+    "price": 399.99,
+    "description": "AMD Ryzen 7 5800X - Ryzen 7 5000 Series Vermeer (Zen 3) 8-Core 3.8 GHz Socket AM4 105W Desktop Processor ",
+    "quantity": 96,
+    "category": "CPUs",
+    "mainCategory": "Components",
+    "id": "2"
+  },
+  {
+    "name": "Intel Core i9-11900K",
+    "image": "https://thumbs.dreamstime.com/z/cracow-malopolska-poland-october-intel-core-i-k-cpu-modern-ghz-coffee-lake-processor-original-blue-box-product-shot-isolated-174129153.jpg",
+    "price": 549.99,
+    "description": "Intel Core i9-11900K - Core i9 11th Gen Rocket Lake 8-Core 3.5 GHz LGA 1200 125W Intel UHD Graphics 750 Desktop Processor",
+    "quantity": 93,
+    "category": "CPUs",
+    "mainCategory": "Components",
+    "id": "3"
+  },
+  {
+    "name": "Intel Core i5-11600K",
+    "image": "https://thumbs.dreamstime.com/z/intel-core-i-desktop-processor-th-generation-box-pruszcz-gdanski-poland-june-122727234.jpg",
+    "price": 269.99,
+    "description": "Intel Core i5-11600K - Core i5 11th Gen Rocket Lake 6-Core 3.9 GHz LGA 1200 125W Intel UHD Graphics 750 Desktop Processor",
+    "quantity": 50,
+    "category": "CPUs",
+    "mainCategory": "Components",
+    "id": "4"
+  },
+  {
+    "name": "Intel Core i7-11700",
+    "image": "https://thumbs.dreamstime.com/z/intel-logo-cpu-montreal-canada-december-i-th-generation-original-processsor-box-american-multinational-corporation-152983223.jpg",
+    "price": 339.99,
+    "description": "Intel Core i7-11700 - Core i7 11th Gen Rocket Lake 8-Core 2.5 GHz LGA 1200 65W Intel UHD Graphics 750 Desktop Processor",
+    "quantity": 86,
+    "category": "CPUs",
+    "mainCategory": "Components",
+    "id": "5"
+  },
+  {
+    "name": "Intel Core i5-11400",
+    "image": "https://thumbs.dreamstime.com/z/intel-core-i-desktop-processor-th-generation-box-pruszcz-gdanski-poland-june-122727234.jpg",
+    "price": 80,
+    "description": "Intel Core i5-11400 - Core i5 11th Gen Rocket Lake 6-Core 2.6 GHz LGA 1200 65W Intel UHD Graphics 730 Desktop Processor",
+    "quantity": 229.99,
+    "category": "CPUs",
+    "mainCategory": "Components",
+    "id": "6"
+  },
+  {
+    "name": "AMD Ryzen 9 5950X",
+    "image": "https://thumbs.dreamstime.com/z/third-generation-ryzen-processor-box-melbourne-australia-jul-packaging-154464310.jpg",
+    "price": 699.99,
+    "description": "Ryzen 9 5000 Series Vermeer (Zen 3) 16-Core 3.4 GHz Socket AM4 105W Desktop Processor",
+    "quantity": 40,
+    "category": "CPUs",
+    "mainCategory": "Components",
+    "id": "7"
+  },
+  {
+    "name": "AMD Ryzen 7 5700G",
+    "image": "https://thumbs.dreamstime.com/z/uzhgorod-ukraine-october-box-processor-ryzen-white-background-processor-ryzen-x-133345567.jpg",
+    "price": 358.99,
+    "description": "AMD Ryzen 7 5700G - Ryzen 7 5000 G-Series Cezanne (Zen 3) 8-Core 3.8 GHz Socket AM4 65W AMD Radeon Graphics Desktop Processor",
+    "quantity": 68,
+    "category": "CPUs",
+    "mainCategory": "Components",
+    "id": "8"
+  },
+  {
+    "name": "AMD Ryzen 5 5600X",
+    "image": "https://thumbs.dreamstime.com/z/carrara-italy-april-amd-ryzen-series-processor-box-isolated-white-background-215440940.jpg",
+    "price": 285.99,
+    "description": "AMD Ryzen 5 5600X - Ryzen 5 5000 Series Vermeer (Zen 3) 6-Core 3.7 GHz Socket AM4 65W Desktop Processor",
+    "quantity": 49,
+    "category": "CPUs",
+    "mainCategory": "Components",
+    "id": "9"
+  },
+  {
+    "name": "AMD Ryzen 3 1600x",
+    "image": "https://p1.akcdn.net/full/683706438.amd-ryzen-3-3300x-4-core-3-8ghz-am4.jpg",
+    "price": 109.99,
+    "description": "AMD Ryzen 3 1st Gen - RYZEN 3 1200 Summit Ridge (Zen) 4-Core 3.1 GHz (3.4 GHz Turbo) Socket AM4 65W",
+    "quantity": 25,
+    "category": "CPUs",
+    "mainCategory": "Components",
+    "id": "10"
+  },
+  {
+    "name": "ASUS PRIME B460M-A",
+    "image": "https://thumbs.dreamstime.com/z/putting-intel-microprocessor-buenos-aires-argentina-august-putting-intel-microprocessor-socket-asus-motherboard-154897884.jpg",
+    "price": 109.99,
+    "description": "ASUS PRIME B460M-A R2.0 LGA 1200 Intel H470 SATA 6Gb/s Micro ATX Intel Motherboard",
+    "quantity": 49,
+    "category": "Motherboards",
+    "mainCategory": "Components",
+    "id": "11"
+  },
+  {
+    "name": "GIGABYTE Z590",
+    "image": "https://thumbs.dreamstime.com/z/z-aorus-pro-wifi-modern-high-end-motherboard-socket-full-shot-isolated-white-bios-battery-m-slots-ram-cpu-slot-whole-163546067.jpg",
+    "price": 239.99,
+    "description": "GIGABYTE Z590 AORUS ELITE AX LGA 1200 Intel Z590 ATX Motherboard with Triple M.2, PCIe 4.0, USB 3.2 Gen2X2 Type-C, Intel WIFI 6, 2.5GbE LAN",
+    "quantity": 48,
+    "category": "Motherboards",
+    "mainCategory": "Components",
+    "id": "12"
+  },
+  {
+    "name": "MSI MPG Z490",
+    "image": "https://thumbs.dreamstime.com/z/varna-bulgaria-january-processor-socket-ram-memory-slots-msi-mag-z-tomahawk-gaming-motherboard-modern-desktop-pc-hardware-207057519.jpg",
+    "price": 175.99,
+    "description": "MSI MPG Z490 GAMING PLUS LGA 1200 Intel Z490 SATA 6Gb/s ATX Intel Motherboard",
+    "quantity": 60,
+    "category": "Motherboards",
+    "mainCategory": "Components",
+    "id": "13"
+  },
+  {
+    "name": "ASUS PRIME B550-PLUS",
+    "image": "https://thumbs.dreamstime.com/z/asus-prime-b-plus-motherboard-isolated-white-background-carrara-italy-february-asus-prime-b-plus-motherboard-isolated-white-210922803.jpg",
+    "price": 124.99,
+    "description": "ASUS PRIME B550-PLUS AM4 AMD B550 SATA 6Gb/s ATX AMD Motherboard",
+    "quantity": 80,
+    "category": "Motherboards",
+    "mainCategory": "Components",
+    "id": "14"
+  },
+  {
+    "name": "GIGABYTE X570",
+    "image": "https://thumbs.dreamstime.com/z/sarajevo-bosnia-herzegovina-december-new-fifth-generation-ryzen-processor-motherboard-socket-new-fifth-generation-206087615.jpg",
+    "price": 279.99,
+    "description": "GIGABYTE X570 AORUS MASTER (rev. 1.2) AMD Ryzen 3000 PCIe 4.0 SATA 6Gb/s USB 3.2 AMD X570 ATX Motherboard",
+    "quantity": 40,
+    "category": "Motherboards",
+    "mainCategory": "Components",
+    "id": "15"
+  },
+  {
+    "name": "MSI PRO B550-A",
+    "image": "https://thumbs.dreamstime.com/z/closeup-modern-computer-motherboard-msi-tomahawk-max-installed-cpu-amd-ryzen-kremenchug-ukraine-november-173116306.jpg",
+    "price": 122.99,
+    "description": "MSI PRO B550-A PRO AM4 AMD B550 SATA 6Gb/s ATX AMD Motherboard",
+    "quantity": 85,
+    "category": "Motherboards",
+    "mainCategory": "Components",
+    "id": "16"
+  },
+  {
+    "name": "name 17",
+    "image": "image 17",
+    "price": 52,
+    "description": "description 17",
+    "quantity": 29,
+    "category": "category 17",
+    "mainCategory": "mainCategory 17",
+    "id": "17"
+  },
+  {
+    "name": "name 18",
+    "image": "image 18",
+    "price": 33,
+    "description": "description 18",
+    "quantity": 37,
+    "category": "category 18",
+    "mainCategory": "mainCategory 18",
+    "id": "18"
+  },
+  {
+    "name": "name 19",
+    "image": "image 19",
+    "price": 74,
+    "description": "description 19",
+    "quantity": 31,
+    "category": "category 19",
+    "mainCategory": "mainCategory 19",
+    "id": "19"
+  },
+  {
+    "name": "name 20",
+    "image": "image 20",
+    "price": 14,
+    "description": "description 20",
+    "quantity": 37,
+    "category": "category 20",
+    "mainCategory": "mainCategory 20",
+    "id": "20"
+  },
+  {
+    "name": "name 21",
+    "image": "image 21",
+    "price": 8,
+    "description": "description 21",
+    "quantity": 72,
+    "category": "category 21",
+    "mainCategory": "mainCategory 21",
+    "id": "21"
+  },
+  {
+    "name": "name 22",
+    "image": "image 22",
+    "price": 16,
+    "description": "description 22",
+    "quantity": 7,
+    "category": "category 22",
+    "mainCategory": "mainCategory 22",
+    "id": "22"
+  },
+  {
+    "name": "name 23",
+    "image": "image 23",
+    "price": 65,
+    "description": "description 23",
+    "quantity": 75,
+    "category": "category 23",
+    "mainCategory": "mainCategory 23",
+    "id": "23"
+  },
+  {
+    "name": "name 24",
+    "image": "image 24",
+    "price": 66,
+    "description": "description 24",
+    "quantity": 28,
+    "category": "category 24",
+    "mainCategory": "mainCategory 24",
+    "id": "24"
+  },
+  {
+    "name": "name 25",
+    "image": "image 25",
+    "price": 1,
+    "description": "description 25",
+    "quantity": 5,
+    "category": "category 25",
+    "mainCategory": "mainCategory 25",
+    "id": "25"
+  },
+  {
+    "name": "name 26",
+    "image": "image 26",
+    "price": 11,
+    "description": "description 26",
+    "quantity": 80,
+    "category": "category 26",
+    "mainCategory": "mainCategory 26",
+    "id": "26"
+  },
+  {
+    "name": "name 27",
+    "image": "image 27",
+    "price": 67,
+    "description": "description 27",
+    "quantity": 26,
+    "category": "category 27",
+    "mainCategory": "mainCategory 27",
+    "id": "27"
+  },
+  {
+    "name": "name 28",
+    "image": "image 28",
+    "price": 14,
+    "description": "description 28",
+    "quantity": 86,
+    "category": "category 28",
+    "mainCategory": "mainCategory 28",
+    "id": "28"
+  },
+  {
+    "name": "name 29",
+    "image": "image 29",
+    "price": 70,
+    "description": "description 29",
+    "quantity": 43,
+    "category": "category 29",
+    "mainCategory": "mainCategory 29",
+    "id": "29"
+  },
+  {
+    "name": "name 30",
+    "image": "image 30",
+    "price": 6,
+    "description": "description 30",
+    "quantity": 95,
+    "category": "category 30",
+    "mainCategory": "mainCategory 30",
+    "id": "30"
+  },
+  {
+    "name": "name 31",
+    "image": "image 31",
+    "price": 21,
+    "description": "description 31",
+    "quantity": 60,
+    "category": "category 31",
+    "mainCategory": "mainCategory 31",
+    "id": "31"
+  },
+  {
+    "name": "name 32",
+    "image": "image 32",
+    "price": 47,
+    "description": "description 32",
+    "quantity": 3,
+    "category": "category 32",
+    "mainCategory": "mainCategory 32",
+    "id": "32"
+  },
+  {
+    "name": "name 33",
+    "image": "image 33",
+    "price": 77,
+    "description": "description 33",
+    "quantity": 79,
+    "category": "category 33",
+    "mainCategory": "mainCategory 33",
+    "id": "33"
+  },
+  {
+    "name": "name 34",
+    "image": "image 34",
+    "price": 60,
+    "description": "description 34",
+    "quantity": 47,
+    "category": "category 34",
+    "mainCategory": "mainCategory 34",
+    "id": "34"
+  },
+  {
+    "name": "name 35",
+    "image": "image 35",
+    "price": 57,
+    "description": "description 35",
+    "quantity": 24,
+    "category": "category 35",
+    "mainCategory": "mainCategory 35",
+    "id": "35"
+  },
+  {
+    "name": "name 36",
+    "image": "image 36",
+    "price": 15,
+    "description": "description 36",
+    "quantity": 92,
+    "category": "category 36",
+    "mainCategory": "mainCategory 36",
+    "id": "36"
+  },
+  {
+    "name": "name 37",
+    "image": "image 37",
+    "price": 33,
+    "description": "description 37",
+    "quantity": 76,
+    "category": "category 37",
+    "mainCategory": "mainCategory 37",
+    "id": "37"
+  },
+  {
+    "name": "name 38",
+    "image": "image 38",
+    "price": 46,
+    "description": "description 38",
+    "quantity": 70,
+    "category": "category 38",
+    "mainCategory": "mainCategory 38",
+    "id": "38"
+  },
+  {
+    "name": "name 39",
+    "image": "image 39",
+    "price": 52,
+    "description": "description 39",
+    "quantity": 9,
+    "category": "category 39",
+    "mainCategory": "mainCategory 39",
+    "id": "39"
+  },
+  {
+    "name": "name 40",
+    "image": "image 40",
+    "price": 62,
+    "description": "description 40",
+    "quantity": 17,
+    "category": "category 40",
+    "mainCategory": "mainCategory 40",
+    "id": "40"
+  },
+  {
+    "name": "name 41",
+    "image": "image 41",
+    "price": 15,
+    "description": "description 41",
+    "quantity": 78,
+    "category": "category 41",
+    "mainCategory": "mainCategory 41",
+    "id": "41"
+  },
+  {
+    "name": "name 42",
+    "image": "image 42",
+    "price": 58,
+    "description": "description 42",
+    "quantity": 68,
+    "category": "category 42",
+    "mainCategory": "mainCategory 42",
+    "id": "42"
+  },
+  {
+    "name": "name 43",
+    "image": "image 43",
+    "price": 25,
+    "description": "description 43",
+    "quantity": 81,
+    "category": "category 43",
+    "mainCategory": "mainCategory 43",
+    "id": "43"
+  },
+  {
+    "name": "name 44",
+    "image": "image 44",
+    "price": 47,
+    "description": "description 44",
+    "quantity": 5,
+    "category": "category 44",
+    "mainCategory": "mainCategory 44",
+    "id": "44"
+  },
+  {
+    "name": "name 45",
+    "image": "image 45",
+    "price": 51,
+    "description": "description 45",
+    "quantity": 18,
+    "category": "category 45",
+    "mainCategory": "mainCategory 45",
+    "id": "45"
+  },
+  {
+    "name": "name 46",
+    "image": "image 46",
+    "price": 7,
+    "description": "description 46",
+    "quantity": 22,
+    "category": "category 46",
+    "mainCategory": "mainCategory 46",
+    "id": "46"
+  },
+  {
+    "name": "name 47",
+    "image": "image 47",
+    "price": 68,
+    "description": "description 47",
+    "quantity": 21,
+    "category": "category 47",
+    "mainCategory": "mainCategory 47",
+    "id": "47"
+  },
+  {
+    "name": "name 48",
+    "image": "image 48",
+    "price": 47,
+    "description": "description 48",
+    "quantity": 8,
+    "category": "category 48",
+    "mainCategory": "mainCategory 48",
+    "id": "48"
+  },
+  {
+    "name": "name 49",
+    "image": "image 49",
+    "price": 64,
+    "description": "description 49",
+    "quantity": 23,
+    "category": "category 49",
+    "mainCategory": "mainCategory 49",
+    "id": "49"
+  },
+  {
+    "name": "name 50",
+    "image": "image 50",
+    "price": 80,
+    "description": "description 50",
+    "quantity": 98,
+    "category": "category 50",
+    "mainCategory": "mainCategory 50",
+    "id": "50"
+  },
+  {
+    "name": "name 51",
+    "image": "image 51",
+    "price": 22,
+    "description": "description 51",
+    "quantity": 18,
+    "category": "category 51",
+    "mainCategory": "mainCategory 51",
+    "id": "51"
+  },
+  {
+    "name": "name 52",
+    "image": "image 52",
+    "price": 89,
+    "description": "description 52",
+    "quantity": 16,
+    "category": "category 52",
+    "mainCategory": "mainCategory 52",
+    "id": "52"
+  },
+  {
+    "name": "name 53",
+    "image": "image 53",
+    "price": 41,
+    "description": "description 53",
+    "quantity": 71,
+    "category": "category 53",
+    "mainCategory": "mainCategory 53",
+    "id": "53"
+  },
+  {
+    "name": "name 54",
+    "image": "image 54",
+    "price": 90,
+    "description": "description 54",
+    "quantity": 39,
+    "category": "category 54",
+    "mainCategory": "mainCategory 54",
+    "id": "54"
+  },
+  {
+    "name": "name 55",
+    "image": "image 55",
+    "price": 36,
+    "description": "description 55",
+    "quantity": 24,
+    "category": "category 55",
+    "mainCategory": "mainCategory 55",
+    "id": "55"
+  },
+  {
+    "name": "name 56",
+    "image": "image 56",
+    "price": 6,
+    "description": "description 56",
+    "quantity": 7,
+    "category": "category 56",
+    "mainCategory": "mainCategory 56",
+    "id": "56"
+  },
+  {
+    "name": "name 57",
+    "image": "image 57",
+    "price": 31,
+    "description": "description 57",
+    "quantity": 29,
+    "category": "category 57",
+    "mainCategory": "mainCategory 57",
+    "id": "57"
+  },
+  {
+    "name": "name 58",
+    "image": "image 58",
+    "price": 28,
+    "description": "description 58",
+    "quantity": 36,
+    "category": "category 58",
+    "mainCategory": "mainCategory 58",
+    "id": "58"
+  },
+  {
+    "name": "name 59",
+    "image": "image 59",
+    "price": 80,
+    "description": "description 59",
+    "quantity": 21,
+    "category": "category 59",
+    "mainCategory": "mainCategory 59",
+    "id": "59"
+  },
+  {
+    "name": "name 60",
+    "image": "image 60",
+    "price": 27,
+    "description": "description 60",
+    "quantity": 52,
+    "category": "category 60",
+    "mainCategory": "mainCategory 60",
+    "id": "60"
+  },
+  {
+    "name": "name 61",
+    "image": "image 61",
+    "price": 60,
+    "description": "description 61",
+    "quantity": 73,
+    "category": "category 61",
+    "mainCategory": "mainCategory 61",
+    "id": "61"
+  },
+  {
+    "name": "name 62",
+    "image": "image 62",
+    "price": 48,
+    "description": "description 62",
+    "quantity": 2,
+    "category": "category 62",
+    "mainCategory": "mainCategory 62",
+    "id": "62"
+  },
+  {
+    "name": "name 63",
+    "image": "image 63",
+    "price": 32,
+    "description": "description 63",
+    "quantity": 36,
+    "category": "category 63",
+    "mainCategory": "mainCategory 63",
+    "id": "63"
+  },
+  {
+    "name": "name 64",
+    "image": "image 64",
+    "price": 59,
+    "description": "description 64",
+    "quantity": 82,
+    "category": "category 64",
+    "mainCategory": "mainCategory 64",
+    "id": "64"
+  }
+]

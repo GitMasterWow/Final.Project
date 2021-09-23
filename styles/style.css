@@ -1,5 +1,5 @@
 /*   Fonts   */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
 /*   Variables   */
 
@@ -36,7 +36,7 @@
   --clr-green-light: rgb(107, 230, 117);
   --clr-black: #222;
   --ff-primary: Verdana, Geneva, Tahoma, sans-serif;
-  --ff-secondary: 'Open Sans', sans-serif;
+  --ff-secondary: "Open Sans", sans-serif;
   --transition: all 0.3s linear;
   --spacing: 0.1rem;
   --radius: 0.25rem;
@@ -45,7 +45,6 @@
   --max-width: 1170px;
   --fixed-width: 620px;
 }
-
 
 /*  Global Styles   */
 
@@ -58,10 +57,10 @@
 body {
   background-color: rgb(223, 223, 223);
 }
-ul{
+ul {
   list-style-type: none;
 }
-a{
+a {
   text-decoration: none;
 }
 /* .main-container {
@@ -74,48 +73,38 @@ a{
   height: auto;
   margin-right: 90px;
 }
-@media (max-width: 350px){
-  .navbar-brand{
+@media (max-width: 350px) {
+  .navbar-brand {
     display: none;
   }
- 
 }
-@media (max-width: 1000px){
-  .accordion{
+@media (max-width: 1000px) {
+  .accordion {
     display: none;
   }
- 
 }
 
-.card-img{
+.card-img {
   max-width: 18rem;
   /* height:auto; */
   margin: 0 auto;
 }
 
-.badge{
+.badge {
   background-color: var(--clr-primary-1);
   border-radius: 50px;
 }
 
 /* Carousel imgages */
 
-.first-row {
-  /* max-height: 460px; */
-  overflow: hidden;
+#carouselExampleCaptions img {
+  max-height: 100%;
 }
-#carouselExampleCaptions img{
- max-height: 100%;
-
-}
-
 
 /* card styles */
 .card {
   box-shadow: var(--light-shadow);
 }
-
-
 
 /* 
 ==============
@@ -184,7 +173,6 @@ reviews section
   color: var(--clr-grey-5);
 }
 
-
 /* 
 =============== 
       Contact 
@@ -195,8 +183,6 @@ reviews section
   resize: vertical;
   max-height: 20vh;
 }
-
-
 
 /* 
 ===============
@@ -214,9 +200,20 @@ Admin Page
 
 /* details page */
 
-
-@media (max-width: 768px) and (max-width:576px) {
-  .description-details{
+@media (max-width: 768px) and (max-width: 576px) {
+  .description-details {
     margin-top: 2rem;
-    }
   }
+}
+
+/* footer */
+
+.footer-cards-img {
+  max-width: 20vw;
+}
+
+/* .card-img-top {
+  margin: 0 auto;
+  width: 200px;
+  height: 150px;
+} */

@@ -1,105 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Bootswatch file -->
-    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/bootstrap.min.css" />
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Bootstrap icons  -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
 
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     />
     <!-- Bootstrap CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Prebuilt Systems</title>
-</head>
-<body>
-     <!-- Navbar -->
-     <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light navbar-container ">
-        <div class="container-fluid">
-          <!-- Logo -->
-          <a class="navbar-brand" href="./index.html"><img class="logo" src="./images/logo2.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./about.html">About</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  PC Components
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="./components.html">CPUs</a></li>
-                  <li><a class="dropdown-item" href="./components.html">Motherboards</a></li>
-                  <li><a class="dropdown-item" href="./components.html">Video Graphic Devices</a></li>
-                  <li><a class="dropdown-item" href="./components.html">Computer Cases</a></li>
-                  <li><a class="dropdown-item" href="./components.html">Power Supplies</a></li>
-                  <li><a class="dropdown-item" href="./components.html">Memory</a></li>
-                  <li><a class="dropdown-item" href="./components.html">Storage</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Accesories
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="./accesories-peripherals.html">Monitors</a></li>
-                  <li><a class="dropdown-item" href="./accesories-peripherals.html">Keyboards and mice</a></li>
-                  <li><a class="dropdown-item" href="./accesories-peripherals.html">Headphones</a></li>
-                  <li><a class="dropdown-item" href="./accesories-peripherals.html">Speakers</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./systems.html">Prebuilt Systems</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./contact.html">Contact</a>
-              </li>
-            </ul>
-  
-            <div class="d-flex gap-3">
-              <a class="btn btn-outline-dark" href="./cart.html">
-                <i class="bi-cart-fill me-1"></i>
-                Cart
-                <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
-               </a>
-                <a href="./admin.html" type="button"
-                    class="btn btn-outline-dark ml btn-md btn-rounded btn-navbar waves-effect waves-light">
-                    <i class="bi bi-lock-fill"></i>
-                    Admin
-                </a>
-              
-            </div>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="
+        navbar navbar-expand-lg
+        sticky-top
+        navbar-light
+        bg-light
+        navbar-container
+      "
+    >
+      <div class="container-fluid">
+        <!-- Logo -->
+        <a class="navbar-brand" href="./index.html"
+          ><img class="logo" src="./images/logo2.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                PC Components
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="./components.html"
+                    >All Components</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./components.html">CPUs</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./components.html"
+                    >Motherboards</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./components.html"
+                    >Video Graphic Devices</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./components.html"
+                    >Computer Cases</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./components.html"
+                    >Power Supplies</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./components.html">Memory</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./components.html">Storage</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Accesories
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="./accesories-peripherals.html"
+                    >All Accesories</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./accesories-peripherals.html"
+                    >Monitors</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./accesories-peripherals.html"
+                    >Keyboards and mice</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./accesories-peripherals.html"
+                    >Headphones</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./accesories-peripherals.html"
+                    >Speakers</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./systems.html"
+                >Prebuilt Systems</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+
+          <div class="d-flex gap-3">
+            <a class="btn btn-outline-dark" href="./cart.html">
+              <i class="bi-cart-fill me-1"></i>
+              Cart
+              <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+            </a>
+            <a
+              href="./admin.html"
+              type="button"
+              class="
+                btn btn-outline-dark
+                ml
+                btn-md btn-rounded btn-navbar
+                waves-effect waves-light
+              "
+            >
+              <i class="bi bi-lock-fill"></i>
+              Admin
+            </a>
           </div>
         </div>
-      </nav>
-
-      <!-- Items container -->
-      <div class="container products-container">
-
       </div>
+    </nav>
 
+    <!-- Items container -->
+    <div class="container products-container"></div>
 
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-      
-      <!-- Bootstrap JS -->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-   
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
     <!-- My JS file -->
     <script src="./script/script.js"></script>
-</body>
+  </body>
 </html>
