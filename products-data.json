@@ -5,8 +5,8 @@
     "price": 169.99,
     "description": "Intel Core i3-10100 - Core i3 10th Gen Comet Lake Quad-Core 3.6 GHz LGA 1200 65W Intel UHD Graphics 630 Desktop Processor",
     "quantity": 95,
-    "category": "CPUs",
-    "mainCategory": "Components",
+    "category": "cpus",
+    "mainCategory": "components",
     "id": "1"
   },
   {
@@ -15,8 +15,8 @@
     "price": 399.99,
     "description": "AMD Ryzen 7 5800X - Ryzen 7 5000 Series Vermeer (Zen 3) 8-Core 3.8 GHz Socket AM4 105W Desktop Processor ",
     "quantity": 96,
-    "category": "CPUs",
-    "mainCategory": "Components",
+    "category": "cpus",
+    "mainCategory": "components",
     "id": "2"
   },
   {
@@ -25,8 +25,8 @@
     "price": 549.99,
     "description": "Intel Core i9-11900K - Core i9 11th Gen Rocket Lake 8-Core 3.5 GHz LGA 1200 125W Intel UHD Graphics 750 Desktop Processor",
     "quantity": 93,
-    "category": "CPUs",
-    "mainCategory": "Components",
+    "category": "cpus",
+    "mainCategory": "components",
     "id": "3"
   },
   {
@@ -35,8 +35,8 @@
     "price": 269.99,
     "description": "Intel Core i5-11600K - Core i5 11th Gen Rocket Lake 6-Core 3.9 GHz LGA 1200 125W Intel UHD Graphics 750 Desktop Processor",
     "quantity": 50,
-    "category": "CPUs",
-    "mainCategory": "Components",
+    "category": "cpus",
+    "mainCategory": "components",
     "id": "4"
   },
   {
@@ -45,8 +45,8 @@
     "price": 339.99,
     "description": "Intel Core i7-11700 - Core i7 11th Gen Rocket Lake 8-Core 2.5 GHz LGA 1200 65W Intel UHD Graphics 750 Desktop Processor",
     "quantity": 86,
-    "category": "CPUs",
-    "mainCategory": "Components",
+    "category": "cpus",
+    "mainCategory": "components",
     "id": "5"
   },
   {
@@ -55,8 +55,8 @@
     "price": 80,
     "description": "Intel Core i5-11400 - Core i5 11th Gen Rocket Lake 6-Core 2.6 GHz LGA 1200 65W Intel UHD Graphics 730 Desktop Processor",
     "quantity": 229.99,
-    "category": "CPUs",
-    "mainCategory": "Components",
+    "category": "cpus",
+    "mainCategory": "components",
     "id": "6"
   },
   {
@@ -65,8 +65,8 @@
     "price": 699.99,
     "description": "Ryzen 9 5000 Series Vermeer (Zen 3) 16-Core 3.4 GHz Socket AM4 105W Desktop Processor",
     "quantity": 40,
-    "category": "CPUs",
-    "mainCategory": "Components",
+    "category": "cpus",
+    "mainCategory": "components",
     "id": "7"
   },
   {
@@ -75,8 +75,8 @@
     "price": 358.99,
     "description": "AMD Ryzen 7 5700G - Ryzen 7 5000 G-Series Cezanne (Zen 3) 8-Core 3.8 GHz Socket AM4 65W AMD Radeon Graphics Desktop Processor",
     "quantity": 68,
-    "category": "CPUs",
-    "mainCategory": "Components",
+    "category": "cpus",
+    "mainCategory": "components",
     "id": "8"
   },
   {
@@ -85,8 +85,8 @@
     "price": 285.99,
     "description": "AMD Ryzen 5 5600X - Ryzen 5 5000 Series Vermeer (Zen 3) 6-Core 3.7 GHz Socket AM4 65W Desktop Processor",
     "quantity": 49,
-    "category": "CPUs",
-    "mainCategory": "Components",
+    "category": "cpus",
+    "mainCategory": "components",
     "id": "9"
   },
   {
@@ -95,8 +95,8 @@
     "price": 109.99,
     "description": "AMD Ryzen 3 1st Gen - RYZEN 3 1200 Summit Ridge (Zen) 4-Core 3.1 GHz (3.4 GHz Turbo) Socket AM4 65W",
     "quantity": 25,
-    "category": "CPUs",
-    "mainCategory": "Components",
+    "category": "cpus",
+    "mainCategory": "components",
     "id": "10"
   },
   {
@@ -105,8 +105,8 @@
     "price": 109.99,
     "description": "ASUS PRIME B460M-A R2.0 LGA 1200 Intel H470 SATA 6Gb/s Micro ATX Intel Motherboard",
     "quantity": 49,
-    "category": "Motherboards",
-    "mainCategory": "Components",
+    "category": "motherboards",
+    "mainCategory": "components",
     "id": "11"
   },
   {
@@ -115,8 +115,8 @@
     "price": 239.99,
     "description": "GIGABYTE Z590 AORUS ELITE AX LGA 1200 Intel Z590 ATX Motherboard with Triple M.2, PCIe 4.0, USB 3.2 Gen2X2 Type-C, Intel WIFI 6, 2.5GbE LAN",
     "quantity": 48,
-    "category": "Motherboards",
-    "mainCategory": "Components",
+    "category": "motherboards",
+    "mainCategory": "components",
     "id": "12"
   },
   {
@@ -125,8 +125,8 @@
     "price": 175.99,
     "description": "MSI MPG Z490 GAMING PLUS LGA 1200 Intel Z490 SATA 6Gb/s ATX Intel Motherboard",
     "quantity": 60,
-    "category": "Motherboards",
-    "mainCategory": "Components",
+    "category": "motherboards",
+    "mainCategory": "components",
     "id": "13"
   },
   {
@@ -135,8 +135,8 @@
     "price": 124.99,
     "description": "ASUS PRIME B550-PLUS AM4 AMD B550 SATA 6Gb/s ATX AMD Motherboard",
     "quantity": 80,
-    "category": "Motherboards",
-    "mainCategory": "Components",
+    "category": "motherboards",
+    "mainCategory": "components",
     "id": "14"
   },
   {
@@ -145,8 +145,8 @@
     "price": 279.99,
     "description": "GIGABYTE X570 AORUS MASTER (rev. 1.2) AMD Ryzen 3000 PCIe 4.0 SATA 6Gb/s USB 3.2 AMD X570 ATX Motherboard",
     "quantity": 40,
-    "category": "Motherboards",
-    "mainCategory": "Components",
+    "category": "motherboards",
+    "mainCategory": "components",
     "id": "15"
   },
   {
@@ -155,8 +155,8 @@
     "price": 122.99,
     "description": "MSI PRO B550-A PRO AM4 AMD B550 SATA 6Gb/s ATX AMD Motherboard",
     "quantity": 85,
-    "category": "Motherboards",
-    "mainCategory": "Components",
+    "category": "motherboards",
+    "mainCategory": "components",
     "id": "16"
   },
   {
@@ -165,8 +165,8 @@
     "price": 852.99,
     "description": "PowerColor RED DRAGON Radeon RX 5500 XT 8GB GDDR6 PCI Express 4.0 CrossFireX Support ATX Video Card AXRX 5500 XT 8GBD6-DHR/OC",
     "quantity": 29,
-    "category": "VGDs",
-    "mainCategory": "Components",
+    "category": "vgds",
+    "mainCategory": "components",
     "id": "17"
   },
   {
@@ -175,8 +175,8 @@
     "price": 1233.99,
     "description": "NVIDIA Official GeForce RTX 2080 Founders Edition 8GB GDDR6 PCI Express 3.0 Graphics Card",
     "quantity": 40,
-    "category": "VGDs",
-    "mainCategory": "Components",
+    "category": "vgds",
+    "mainCategory": "components",
     "id": "18"
   },
   {
@@ -185,8 +185,8 @@
     "price": 399.99,
     "description": "MSI GeForce GTX 1050 Ti 4GB GDDR5 PCI Express 3.0 x16 ATX Video Card GTX 1050 Ti 4GT OC",
     "quantity": 39,
-    "category": "VGDs",
-    "mainCategory": "Components",
+    "category": "vgds",
+    "mainCategory": "components",
     "id": "19"
   },
   {
@@ -195,8 +195,8 @@
     "price": 1499.99,
     "description": "NVIDIA GeForce GTX 1080 Ti Founders Edition DirectX 12 11GB 352-Bit GDDR5X PCI Express 3.0 x16 HDCP Ready SLI Support Video Card",
     "quantity": 25,
-    "category": "VGDs",
-    "mainCategory": "Components",
+    "category": "vgds",
+    "mainCategory": "components",
     "id": "20"
   },
   {
@@ -205,8 +205,8 @@
     "price": 759.99,
     "description": "ASUS Radeon RX 580 8GB GDDR5 CrossFireX Support Video Card DUAL-RX580-O8G",
     "quantity": 41,
-    "category": "VGDs",
-    "mainCategory": "Components",
+    "category": "vgds",
+    "mainCategory": "components",
     "id": "21"
   },
   {
@@ -215,8 +215,8 @@
     "price": 959.99,
     "description": "Sapphire Radeon PULSE RX 590 8GB GDDR5 PCI-E Dual HDMI / DVI-D / Dual DP w/ Backplate",
     "quantity": 37,
-    "category": "VGDs",
-    "mainCategory": "Components",
+    "category": "vgds",
+    "mainCategory": "components",
     "id": "22"
   },
   {
@@ -225,8 +225,8 @@
     "price": 965.99,
     "description": "MSI Ventus GeForce RTX 3060 12GB GDDR6 PCI Express 4.0 Video Card RTX 3060 Ventus 2X 12G OC",
     "quantity": 35,
-    "category": "VGDs",
-    "mainCategory": "Components",
+    "category": "vgds",
+    "mainCategory": "components",
     "id": "23"
   },
   {
@@ -235,28 +235,28 @@
     "price": 189.99,
     "description": "Biostar Gaming Radeon RX 550 4GB GDDR5 128-Bit DirectX 12 PCI Express 3.0 DVI-D Dual Link, HDMI, DisplayPort",
     "quantity": 38,
-    "category": "VGDs",
-    "mainCategory": "Components",
+    "category": "vgds",
+    "mainCategory": "components",
     "id": "24"
   },
   {
     "name": "DIYPC Vanguard Black",
     "image": "https://images.unsplash.com/photo-1624705013726-8cb4f9415f40?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
     "price": 59.99,
-    "description": "DIYPC Vanguard Black Dual USB3.0 Steel/ Tempered Glass ATX Mid Tower Gaming Computer Case  and Pre-Installed 4 x Fans (7 Different speeds in 3 Mode Control)",
+    "description": "DIYPC Vanguard Black Dual USB3.0 Steel/ Tempered Glass ATX Mid Tower Gaming Computer case  and Pre-Installed 4 x Fans (7 Different speeds in 3 Mode Control)",
     "quantity": 50,
-    "category": "Case",
-    "mainCategory": "Components",
+    "category": "case",
+    "mainCategory": "components",
     "id": "25"
   },
   {
     "name": "Phanteks Eclipse P400",
     "image": "https://images.unsplash.com/photo-1555626040-e1c570e4a213?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1702&q=80",
     "price": 79.99,
-    "description": "Phanteks Eclipse P400 PH-EC416PTG_BK Satin Black Tempered Glass/Steel ATX Mid Tower Computer Case",
+    "description": "Phanteks Eclipse P400 PH-EC416PTG_BK Satin Black Tempered Glass/Steel ATX Mid Tower Computer case",
     "quantity": 60,
-    "category": "Case",
-    "mainCategory": "Components",
+    "category": "case",
+    "mainCategory": "components",
     "id": "26"
   },
   {
@@ -265,28 +265,28 @@
     "price": 139.99,
     "description": "Cooler Master MasterBox MB520 ARGB ATX Mid-Tower with ARGB Lighting System, 3x 120mm ARGB Fans, Tempered Glass, Front DarkMirror Panel with Mesh Side Intakes, MCB-B520-KGNN-RGA",
     "quantity": 56,
-    "category": "Case",
-    "mainCategory": "Components",
+    "category": "case",
+    "mainCategory": "components",
     "id": "27"
   },
   {
     "name": "Rosewill ATX",
     "image": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
     "price": 69.99,
-    "description": "Rosewill ATX Mid Tower Gaming Computer Case, Supports up to 400 mm Long VGA Card, Comes with Two Fans Pre-installed - Front 120 mm Fan x 1, Rear 120 mm Fan x 1 - TYRFING",
+    "description": "Rosewill ATX Mid Tower Gaming Computer case, Supports up to 400 mm Long VGA Card, Comes with Two Fans Pre-installed - Front 120 mm Fan x 1, Rear 120 mm Fan x 1 - TYRFING",
     "quantity": 76,
-    "category": "Case",
-    "mainCategory": "Components",
+    "category": "case",
+    "mainCategory": "components",
     "id": "28"
   },
   {
     "name": "Montech X3 Mesh",
     "image": "https://images.unsplash.com/photo-1512756290469-ec264b7fbf87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1053&q=80",
     "price": 89.99,
-    "description": "Montech X3 Mesh 6pcs, 3 x 140mm& 3 x 120mm Fixed RGB Lighting Fans ATX Mid-Tower PC Gaming Case, USB3.0, Door Open Tempered Glass Side Panel, High Airflow, Black",
+    "description": "Montech X3 Mesh 6pcs, 3 x 140mm& 3 x 120mm Fixed RGB Lighting Fans ATX Mid-Tower PC Gaming case, USB3.0, Door Open Tempered Glass Side Panel, High Airflow, Black",
     "quantity": 53,
-    "category": "Case",
-    "mainCategory": "Components",
+    "category": "case",
+    "mainCategory": "components",
     "id": "29"
   },
   {
@@ -295,8 +295,8 @@
     "price": 76.99,
     "description": "Rosewill PHOTON Series 550W Full Modular Gaming Power Supply, 80 PLUS Gold Certified, Single +12V Rail, SLI & Crossfire Ready - Photon-550",
     "quantity": 85,
-    "category": "PSU",
-    "mainCategory": "Components",
+    "category": "psu",
+    "mainCategory": "components",
     "id": "30"
   },
   {
@@ -305,8 +305,8 @@
     "price": 61.99,
     "description": "Thermaltake Toughpower GF1 650W 80+ Gold SLI/Crossfire Ready Ultra Quiet 140mm Hydraulic Bearing Smart Zero Fan Full Modular Power Supply 10 Year Waranty",
     "quantity": 60,
-    "category": "PSU",
-    "mainCategory": "Components",
+    "category": "psu",
+    "mainCategory": "components",
     "id": "31"
   },
   {
@@ -315,68 +315,68 @@
     "price": 47.99,
     "description": "COUGAR VTE600 600W ATX12V 80 PLUS BRONZE Certified Non-Modular Active PFC Power Supply",
     "quantity": 30,
-    "category": "PSU",
-    "mainCategory": "Components",
+    "category": "psu",
+    "mainCategory": "components",
     "id": "32"
   },
   {
-    "name": "EVGA SuperNOVA 650",
+    "name": "EVGA NOVA 650",
     "image": "https://st.depositphotos.com/1580652/1919/i/600/depositphotos_19198361-stock-photo-computer-power-supply-unit.jpgs",
     "price": 77.99,
     "description": "EVGA SuperNOVA 650 G3, 220-G3-0650-Y1, 80+ GOLD, 650W Fully Modular, EVGA ECO Mode with New HDB Fan, Includes FREE Power On Self Tester, Compact 150mm Size, Power Supply",
     "quantity": 79,
-    "category": "PSU",
-    "mainCategory": "Components",
+    "category": "psu",
+    "mainCategory": "components",
     "id": "33"
   },
   {
     "name": "HyperX",
     "image": "https://images.pexels.com/photos/2582936/pexels-photo-2582936.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "price": 85.99,
-    "description": "HyperX Aegis 16GB (2 x 8GB) 288-Pin DDR4 SDRAM DDR4 3200 (PC4 25600) Intel XMP 2.0 Memory Kit Model F4-3200C16D-16GIS",
+    "description": "HyperX Aegis 16GB (2 x 8GB) 288-Pin DDR4 SDRAM DDR4 3200 (PC4 25600) Intel XMP 2.0 memory Kit Model F4-3200C16D-16GIS",
     "quantity": 80,
-    "category": "Memory",
-    "mainCategory": "Components",
+    "category": "memory",
+    "mainCategory": "components",
     "id": "34"
   },
   {
     "name": "TridentZ",
     "image": "https://images.unsplash.com/photo-1592664474505-51c549ad15c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     "price": 98.99,
-    "description": "G.SKILL Trident Z RGB (For AMD) 16GB (2 x 8GB) 288-Pin DDR4 SDRAM DDR4 3600 (PC4 28800) Intel XMP 2.0 Desktop Memory Model F4-3600C18D-16GTZRX",
+    "description": "G.SKILL Trident Z RGB (For AMD) 16GB (2 x 8GB) 288-Pin DDR4 SDRAM DDR4 3600 (PC4 28800) Intel XMP 2.0 Desktop memory Model F4-3600C18D-16GTZRX",
     "quantity": 70,
-    "category": "Memory",
-    "mainCategory": "Components",
+    "category": "memory",
+    "mainCategory": "components",
     "id": "35"
   },
   {
     "name": "CORSAIR Vengeance",
     "image": "https://images.unsplash.com/photo-1592664474474-4a1e445446e8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
     "price": 94.99,
-    "description": "CORSAIR Vengeance RGB Pro 16GB (2 x 8GB) 288-Pin DDR4 DRAM DDR4 3200 (PC4 25600) Desktop Memory Model CMW16GX4M2C3200C16",
+    "description": "CORSAIR Vengeance RGB Pro 16GB (2 x 8GB) 288-Pin DDR4 DRAM DDR4 3200 (PC4 25600) Desktop memory Model CMW16GX4M2C3200C16",
     "quantity": 100,
-    "category": "Memory",
-    "mainCategory": "Components",
+    "category": "memory",
+    "mainCategory": "components",
     "id": "36"
   },
   {
     "name": "GeIL ORION",
     "image": "https://images.unsplash.com/photo-1542978709-19c95dc3bc7e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80",
     "price": 74.99,
-    "description": "GeIL ORION AMD Edition 16GB (2 x 8GB) 288-Pin DDR4 SDRAM DDR4 3600 (PC4 28800) Intel XMP 2.0 Desktop Memory Model GAOG416GB3600C18BDC",
+    "description": "GeIL ORION AMD Edition 16GB (2 x 8GB) 288-Pin DDR4 SDRAM DDR4 3600 (PC4 28800) Intel XMP 2.0 Desktop memory Model GAOG416GB3600C18BDC",
     "quantity": 76,
-    "category": "Memory",
-    "mainCategory": "Components",
+    "category": "memory",
+    "mainCategory": "components",
     "id": "37"
   },
   {
     "name": "Patriot Viper RGB",
     "image": "https://images.unsplash.com/photo-1618352926724-69e5e4215eef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1469&q=80",
     "price": 96.99,
-    "description": "Patriot Viper RGB 16GB (2 x 8GB) 288-Pin DDR4 SDRAM DDR4 4133 (PC4 33000) Intel XMP 2.0 Desktop Memory Model PVR416G413C9K",
+    "description": "Patriot Viper RGB 16GB (2 x 8GB) 288-Pin DDR4 SDRAM DDR4 4133 (PC4 33000) Intel XMP 2.0 Desktop memory Model PVR416G413C9K",
     "quantity": 70,
-    "category": "Memory",
-    "mainCategory": "Components",
+    "category": "memory",
+    "mainCategory": "components",
     "id": "38"
   },
   {
@@ -385,8 +385,8 @@
     "price": 152.99,
     "description": "SAMSUNG 870 QVO Series 2.5 1TB SATA III V-NAND Internal Solid State Drive (SSD)",
     "quantity": 90,
-    "category": "Storage",
-    "mainCategory": "Components",
+    "category": "storage",
+    "mainCategory": "components",
     "id": "39"
   },
   {
@@ -395,8 +395,8 @@
     "price": 140.99,
     "description": "XPG SX8200 Pro Series: 1TB Internal Solid State Drive PCIe Gen3x4 M.2 2280",
     "quantity": 77,
-    "category": "Storage",
-    "mainCategory": "Components",
+    "category": "storage",
+    "mainCategory": "components",
     "id": "40"
   },
   {
@@ -405,8 +405,8 @@
     "price": 49.99,
     "description": "WD Blue 2TB Desktop Hard Disk Drive - 7200 RPM SATA 6Gb/s 256MB Cache 3.5 Inch",
     "quantity": 78,
-    "category": "Storage",
-    "mainCategory": "Components",
+    "category": "storage",
+    "mainCategory": "components",
     "id": "41"
   },
   {
@@ -415,8 +415,8 @@
     "price": 58.99,
     "description": "Seagate BarraCuda ST2000DM008 2TB 7200 RPM 256MB Cache SATA 6.0Gb/s 3.5 Hard Drive Bare Drive",
     "quantity": 68,
-    "category": "Storage",
-    "mainCategory": "Components",
+    "category": "storage",
+    "mainCategory": "components",
     "id": "42"
   },
   {
@@ -425,8 +425,8 @@
     "price": 189.99,
     "description": "TOSHIBA X300 HDWR180XZSTA 8TB 7200 RPM 256MB Cache SATA 6.0Gb/s 3.5 Internal Hard Drive",
     "quantity": 81,
-    "category": "Storage",
-    "mainCategory": "Components",
+    "category": "storage",
+    "mainCategory": "components",
     "id": "43"
   },
   {
@@ -435,8 +435,8 @@
     "price": 99.99,
     "description": "Team Group T-FORCE VULCAN G 2.5 1TB SATA III 3D NAND Internal Solid State Drive (SSD) T253TG001T3C301",
     "quantity": 50,
-    "category": "Storage",
-    "mainCategory": "Components",
+    "category": "storage",
+    "mainCategory": "components",
     "id": "44"
   },
   {
@@ -445,8 +445,8 @@
     "price": 102.99,
     "description": "SAMSUNG 860 Pro Series 2.5 512GB SATA III V-NAND 2-bit MLC Internal Solid State Drive (SSD) MZ-76P512BW",
     "quantity": 80,
-    "category": "Storage",
-    "mainCategory": "Components",
+    "category": "storage",
+    "mainCategory": "components",
     "id": "45"
   },
   {
@@ -455,8 +455,8 @@
     "price": 799.99,
     "description": "GIGABYTE M32U 32 Inch (31.5 Viewable) 3840 x 2160 4K 144Hz Adaptive Sync Compatible, SS IPS, 1ms (MPRT), 1x Display Port 1.4, 2x HDMI 2.1, 2x USB 3.0, 1x USB Type C Height Adjust VESA Gaming Monitor",
     "quantity": 29,
-    "category": "Monitors",
-    "mainCategory": "Accessories",
+    "category": "monitors",
+    "mainCategory": "peripherals",
     "id": "46"
   },
   {
@@ -465,18 +465,18 @@
     "price": 359.99,
     "description": "Alienware 25 AW2521HF 24.5 inch Gaming Monitor (Dark) 1ms GtG RT, FHD IPS LED Backlit FHD at 240 Hz Refresh Rate, AMD FreeSync Premium + Nvidia G-SYNC Compatible, Adaptive Sync, 99% sRGB DP/HDMI, USB",
     "quantity": 41,
-    "category": "Monitors",
-    "mainCategory": "Accessories",
+    "category": "monitors",
+    "mainCategory": "peripherals",
     "id": "47"
   },
   {
     "name": "Acer Nitro VG220Q",
     "image": "https://images.unsplash.com/photo-1593640495253-23196b27a87f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1632&q=80",
     "price": 229.99,
-    "description": "Acer Nitro Gaming Series VG220Q bmiix 22 Inch (21.5 Diagonal) Full HD 1920 x 1080 75Hz 1ms HDMI VGA AMD FreeSync Technology Flicker-Less Built-in Speakers LED Backlit IPS Gaming Monitor",
+    "description": "Acer Nitro Gaming Series VG220Q bmiix 22 Inch (21.5 Diagonal) Full HD 1920 x 1080 75Hz 1ms HDMI VGA AMD FreeSync Technology Flicker-Less Built-in speakers LED Backlit IPS Gaming Monitor",
     "quantity": 80,
-    "category": "Monitors",
-    "mainCategory": "Accessories",
+    "category": "monitors",
+    "mainCategory": "peripherals",
     "id": "48"
   },
   {
@@ -485,8 +485,8 @@
     "price": 199.99,
     "description": "MSI Optix G24C6P 24 Inch(23.8 Viewable) Full HD 1920 x 1080 144Hz 1ms, HDMI DisplayPort AMD FreeSync Premium, VESA Tilt Height Adjust Gaming Monitor",
     "quantity": 63,
-    "category": "Monitors",
-    "mainCategory": "Accessories",
+    "category": "monitors",
+    "mainCategory": "peripherals",
     "id": "49"
   },
   {
@@ -495,8 +495,8 @@
     "price": 259.99,
     "description": "Dell P2219H 22 Inch (Actual size 21.5) Full HD 1920 x 1080 IPS Monitor, 60 Hz, 5 ms, VAG, HDMI, Displayport, USB, Tilt, Pivot, Swivel and Height Adjustable, VESA Compatible",
     "quantity": 98,
-    "category": "Monitors",
-    "mainCategory": "Accessories",
+    "category": "monitors",
+    "mainCategory": "peripherals",
     "id": "50"
   },
   {
@@ -505,8 +505,8 @@
     "price": 1159.99,
     "description": "Samsung CRG9 Series C49RG90S 49 Inch Dual Quad HD 5120 x 1440 Resolution 120Hz HDMI, 2x DisplayPort AMD FreeSync 2 Flicker Free HDR1000 QLED Curved Gaming Monitor",
     "quantity": 18,
-    "category": "Monitors",
-    "mainCategory": "Accessories",
+    "category": "monitors",
+    "mainCategory": "peripherals",
     "id": "51"
   },
   {
@@ -515,8 +515,8 @@
     "price": 29.99,
     "description": "Logitech MK120 Wireless Keyboard and Mouse - Black",
     "quantity": 50,
-    "category": "Keyboards",
-    "mainCategory": "Accessories",
+    "category": "keyboards",
+    "mainCategory": "peripherals",
     "id": "52"
   },
   {
@@ -525,8 +525,8 @@
     "price": 41.99,
     "description": "LUOM Wireless Mouse & Keyboard Combo with Silent Touch, Full Numpad, Advanced Optical Tracking, Lag-Free Wireless, 90% Less Noise",
     "quantity": 71,
-    "category": "Keyboards",
-    "mainCategory": "Accessories",
+    "category": "keyboards",
+    "mainCategory": "peripherals",
     "id": "53"
   },
   {
@@ -535,8 +535,8 @@
     "price": 99.99,
     "description": "Cooler Master SK650 Black Limited Edition Mechanical Keyboard and Mouse Kit, with Cherry MX Low Profile RGB Switches in Brushed Aluminum Design, Full",
     "quantity": 79,
-    "category": "Keyboards",
-    "mainCategory": "Accessories",
+    "category": "keyboards",
+    "mainCategory": "peripherals",
     "id": "54"
   },
   {
@@ -545,8 +545,8 @@
     "price": 36.99,
     "description": "Technology N518 26 Non-conflicting Keys, Ergonomic Design, Retro Punk Exterior USB Wired Ice Blue Backlit Keyboard And 1600DPI Mouse Combo For Office And Game - Black",
     "quantity": 64,
-    "category": "Keyboards",
-    "mainCategory": "Accessories",
+    "category": "keyboards",
+    "mainCategory": "peripherals",
     "id": "55"
   },
   {
@@ -555,8 +555,8 @@
     "price": 67.99,
     "description": "Rosewill Gaming Keyboard and Mouse Combo, Mechanical Switch Feel Keyboard with 9 Pre-Programmed Lighting Effects, On-the-Fly Mouse DPI Setting up to 3200 dpi, RGB LED Backlit Fusion C31",
     "quantity": 70,
-    "category": "Keyboards",
-    "mainCategory": "Accessories",
+    "category": "keyboards",
+    "mainCategory": "peripherals",
     "id": "56"
   },
   {
@@ -565,8 +565,8 @@
     "price": 68.99,
     "description": "High Performance PC Gaming Keyboard and Mouse Combo Wired LED RGB Backlit with Multimedia Keys Wrist Rest Mouse with 3200 DPI for Windows Computer Gamers",
     "quantity": 69,
-    "category": "Keyboards",
-    "mainCategory": "Accessories",
+    "category": "keyboards",
+    "mainCategory": "peripherals",
     "id": "57"
   },
   {
@@ -575,8 +575,8 @@
     "price": 128.99,
     "description": "Beyerdynamic DT 990 250 Ohm Pro Studio Mixing and Mastering Open-Back Headphones",
     "quantity": 36,
-    "category": "Headphones",
-    "mainCategory": "Accessories",
+    "category": "headphones",
+    "mainCategory": "peripherals",
     "id": "58"
   },
   {
@@ -585,8 +585,8 @@
     "price": 75.99,
     "description": "Soundcore by Anker Life Q30 Hybrid Active Noise Cancelling Headphones with Multiple Modes, Hi-Res Sound, 40H Playtime, Clear Calls, Fast Charge, Soft Earcups, Bluetooth Headphones, Travel",
     "quantity": 51,
-    "category": "Headphones",
-    "mainCategory": "Accessories",
+    "category": "headphones",
+    "mainCategory": "peripherals",
     "id": "59"
   },
   {
@@ -595,8 +595,8 @@
     "price": 57.99,
     "description": "Anker Soundcore Life 2 Neo Wireless Headphones, Over Ear Wireless Bluetooth Headphones, 60H Playtime, USB-C Fast Charging, High Bass, AUX Input",
     "quantity": 52,
-    "category": "Headphones",
-    "mainCategory": "Accessories",
+    "category": "headphones",
+    "mainCategory": "peripherals",
     "id": "60"
   },
   {
@@ -605,8 +605,8 @@
     "price": 160.99,
     "description": "Sony WH-1000XM3/B Wireless Industry-Leading Noise-Cancelling Over-Ear Headphones (Black)",
     "quantity": 73,
-    "category": "Headphones",
-    "mainCategory": "Accessories",
+    "category": "headphones",
+    "mainCategory": "peripherals",
     "id": "61"
   },
   {
@@ -615,8 +615,8 @@
     "price": 69.99,
     "description": "Philips Performance SHP9500 Over-Ear Open-Air Headphones - EXCLUSIVE - Black",
     "quantity": 29,
-    "category": "Headphones",
-    "mainCategory": "Accessories",
+    "category": "headphones",
+    "mainCategory": "peripherals",
     "id": "62"
   },
   {
@@ -625,18 +625,18 @@
     "price": 132.99,
     "description": "JBL LIVE 650BTNC Wireless Over-Ear Noise-Cancelling Headphones with Voice Control (Black)",
     "quantity": 46,
-    "category": "Headphones",
-    "mainCategory": "Accessories",
+    "category": "headphones",
+    "mainCategory": "peripherals",
     "id": "63"
   },
   {
     "name": "Yamaha NS-AW194",
     "image": "https://images.unsplash.com/photo-1612241143917-d05c85c43751?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80",
     "price": 99.99,
-    "description": "Yamaha NS-AW194 High Performance Outdoor Speakers (White/Pair)",
+    "description": "Yamaha NS-AW194 High Performance Outdoor speakers (White/Pair)",
     "quantity": 82,
-    "category": "Speakers",
-    "mainCategory": "Accessories",
+    "category": "speakers",
+    "mainCategory": "peripherals",
     "id": "64"
   },
   {
@@ -645,8 +645,8 @@
     "price": 64.99,
     "description": "Pioneer SP-C22 Andrew Jones Designed Center Channel Speaker Single",
     "quantity": 64,
-    "category": "Speakers",
-    "mainCategory": "Accessories",
+    "category": "speakers",
+    "mainCategory": "peripherals",
     "id": "65"
   },
   {
@@ -655,8 +655,8 @@
     "price": 42.99,
     "description": "Bogen NEAR S4 75 W RMS Speaker - 2-way - Black",
     "quantity": 53,
-    "category": "Speakers",
-    "mainCategory": "Accessories",
+    "category": "speakers",
+    "mainCategory": "peripherals",
     "id": "66"
   },
   {
@@ -665,8 +665,8 @@
     "price": 89.99,
     "description": "JBL FLIP 5 Portable Waterproof Bluetooth Speaker",
     "quantity": 80,
-    "category": "Speakers",
-    "mainCategory": "Accessories",
+    "category": "speakers",
+    "mainCategory": "peripherals",
     "id": "67"
   },
   {
@@ -675,8 +675,8 @@
     "price": 1399.99,
     "description": "AB Master Gaming PC - Intel i5 10400F - GeForce RTX 3060 12GB - 16GB DDR4 3000MHz - 512GB SSD",
     "quantity": 6,
-    "category": "Systems",
-    "mainCategory": "Systems",
+    "category": "systems",
+    "mainCategory": "systems",
     "id": "68"
   },
   {
@@ -685,8 +685,8 @@
     "price": 847.99,
     "description": "DesK S300 - Intel Core i7-10700 - 16GB DDR4 - 512GB SSD - DVD Drive - Windows 10 Home - Wired Keyboard & Mouse - Desktop PC (S300MA-DH701)",
     "quantity": 11,
-    "category": "Systems",
-    "mainCategory": "Systems",
+    "category": "systems",
+    "mainCategory": "systems",
     "id": "69"
   },
   {
@@ -695,8 +695,8 @@
     "price": 989.99,
     "description": "SkyTe Gaming PC Desktop AMD Ryzen 5 3600 6-Core, GTX 1660 Super 6GB, 16GB DDR4, 500GB SSD, 11AC WiFi, Windows 10 Home 64-bit",
     "quantity": 11,
-    "category": "Systems",
-    "mainCategory": "Systems",
+    "category": "systems",
+    "mainCategory": "systems",
     "id": "70"
   },
   {
@@ -705,8 +705,8 @@
     "price": 2123.99,
     "description": "i Gaming Desktop Trace5MR 177i Intel Core i9 11th Gen 11900KF (3.50 GHz) 16 GB DDR4 1 TB PCIe SSD NVIDIA GeForce RTX 3090 Ti",
     "quantity": 3,
-    "category": "Systems",
-    "mainCategory": "Systems",
+    "category": "systems",
+    "mainCategory": "systems",
     "id": "71"
   },
   {
@@ -715,8 +715,8 @@
     "price": 533,
     "description": "Aspire TC - AMD Ryzen 3 3200G - 8 GB DDR4 - 512 GB SSD - Radeon Vega 8 - Windows 10 Home - Desktop Computer (TC-390-UA91)",
     "quantity": 15,
-    "category": "Systems",
-    "mainCategory": "Systems",
+    "category": "systems",
+    "mainCategory": "systems",
     "id": "72"
   },
   {
@@ -725,8 +725,8 @@
     "price": 1324.99,
     "description": "New ROG Strix Gaming Desktop - AMD Ryzen 7 5700G Processor - NVIDIA GeForce RTX 2060 Super - 16GB RAM - 256GB SSD +1TB HDD",
     "quantity": 7,
-    "category": "Systems",
-    "mainCategory": "Systems",
+    "category": "systems",
+    "mainCategory": "systems",
     "id": "73"
   },
   {
@@ -735,18 +735,18 @@
     "price": 1073.99,
     "description": "HERO G1 A5837 Gaming Desktop Powered By Zotac - Ryzen 7 5000 Series 5800X (3.80 GHz) NVIDIA GeForce RTX 3070 8 GB Dual-Channel 16 GB DDR4 1 TB HDD 1 TB PCIe NVMe SSD 240MM D-RGB Liquid Cooler Windows 10 Home 64-bit",
     "quantity": 8,
-    "category": "Systems",
-    "mainCategory": "Systems",
+    "category": "systems",
+    "mainCategory": "systems",
     "id": "74"
   },
   {
-    "name": "ThinkStation P330",
+    "name": "ThinkAfter P330",
     "image": "https://images.unsplash.com/photo-1624705002806-5d72df19c3ad?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1632&q=80",
-    "price": 73,
-    "description": "ThinkStation P330 Desktop, Intel Core i5-9500 Upto 4.4GHz, 16GB RAM, 512GB SSD, DVDRW, DisplayPort, Wi-Fi",
-    "quantity": 50,
-    "category": "Systems",
-    "mainCategory": "Systems",
-    "id": "74"
+    "price": 1573.99,
+    "description": "ThinkAfter P330 Desktop, Intel Core i5-9500 Upto 4.4GHz, 16GB RAM, 512GB SSD, DVDRW, DisplayPort, Wi-Fi",
+    "quantity": 10,
+    "category": "systems",
+    "mainCategory": "systems",
+    "id": "75"
   }
 ]

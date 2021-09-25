@@ -30,6 +30,7 @@
   </head>
   <body>
     <!-- Navbar -->
+
     <nav
       class="
         navbar navbar-expand-lg
@@ -122,31 +123,31 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Accesories
+                Peripherals
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <a class="dropdown-item" href="./accesories-peripherals.html"
-                    >All Accesories</a
+                  <a class="dropdown-item" href="./peripherals.html"
+                    >All Peripherals</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="./accesories-peripherals.html"
+                  <a class="dropdown-item" href="./peripherals.html"
                     >Monitors</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="./accesories-peripherals.html"
+                  <a class="dropdown-item" href="./peripherals.html"
                     >Keyboards and mice</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="./accesories-peripherals.html"
+                  <a class="dropdown-item" href="./peripherals.html"
                     >Headphones</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="./accesories-peripherals.html"
+                  <a class="dropdown-item" href="./peripherals.html"
                     >Speakers</a
                   >
                 </li>
@@ -198,21 +199,57 @@
               <div class="dashboard-links">
                 <ul>
                   <li>
-                    <a class="my-1 d-inline-block" href="">All Products</a>
-                  </li>
-                  <li><a class="my-1 d-inline-block" href="">CPUs</a></li>
-                  <li>
-                    <a class="my-1 d-inline-block" href="">Motherboards </a>
-                  </li>
-                  <li><a class="my-1 d-inline-block" href="">VGDs</a></li>
-                  <li>
-                    <a class="my-1 d-inline-block" href="">Computer Cases</a>
+                    <a
+                      class="my-1 d-inline-block"
+                      id="all-products"
+                      href="javascript:;"
+                      >All Products</a
+                    >
                   </li>
                   <li>
-                    <a class="my-1 d-inline-block" href="">Power Supplies</a>
+                    <a class="my-1 d-inline-block" id="cpus" href="javascript:;"
+                      >CPUs</a
+                    >
                   </li>
-                  <li><a class="my-1 d-inline-block" href="">Memory</a></li>
-                  <li><a class="my-1 d-inline-block" href="">Storage</a></li>
+                  <li>
+                    <a
+                      class="my-1 d-inline-block"
+                      id="motherboards"
+                      href="javascript:;"
+                      >Motherboards
+                    </a>
+                  </li>
+                  <li>
+                    <a class="my-1 d-inline-block" id="vgds" href="javascript:;"
+                      >Video Graphic Devices</a
+                    >
+                  </li>
+                  <li>
+                    <a class="my-1 d-inline-block" id="case" href="javascript:;"
+                      >Computer Cases</a
+                    >
+                  </li>
+                  <li>
+                    <a class="my-1 d-inline-block" id="psu" href="javascript:;"
+                      >Power Supplies</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="my-1 d-inline-block"
+                      id="memory"
+                      href="javascript:;"
+                      >Memory</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="my-1 d-inline-block"
+                      id="storage"
+                      href="javascript:;"
+                      >Storage</a
+                    >
+                  </li>
                 </ul>
               </div>
             </div>
@@ -226,9 +263,11 @@
             <div
               class="
                 container-fluid
+                col-12
+                my-auto
                 d-flex
                 flex-wrap
-                align-content-center
+                justify-content-center
                 products-container
               "
             ></div>

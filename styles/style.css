@@ -196,8 +196,8 @@ Admin Page
 
 /* footer */
 
-.footer-cards-img {
-  max-width: 20vw;
+#email-subscription {
+  max-width: 280px;
 }
 
 /* Product cards */
@@ -207,12 +207,15 @@ Admin Page
   height: 150px;
 }
 
-.card {
+.product-card {
   box-shadow: var(--light-shadow);
-  max-width: 18rem;
+  max-width: 17rem;
+  min-width: 16rem;
+  max-height: 20rem;
 }
-.card-img {
+.card-img-top {
   max-width: 18rem;
+  max-height: 12rem;
   /* height:auto; */
   margin: 0 auto;
 }

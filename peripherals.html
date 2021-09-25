@@ -26,7 +26,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./styles/style.css" />
-    <title>accesories And Peripherals</title>
+    <title>Accesories And Peripherals</title>
   </head>
   <body>
     <!-- Navbar -->
@@ -122,26 +122,26 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Accesories
+                Peripherals
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <a class="dropdown-item" href="./accesories-peripherals.html"
-                    >All Accesories</a
+                  <a class="dropdown-item" href="./peripherals.html"
+                    >All Peripherals</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="./accesories-peripherals.html"
+                  <a class="dropdown-item" href="./peripherals.html"
                     >Monitors</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="./accesories-peripherals.html"
+                  <a class="dropdown-item" href="./peripherals.html"
                     >Keyboards and mice</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="./accesories-peripherals.html"
+                  <a class="dropdown-item" href="./peripherals.html"
                     >Headphones</a
                   >
                 </li>
@@ -189,41 +189,75 @@
     </nav>
 
     <!-- Sidebar and products container -->
-    <div class="products-container">
+    <div class="container-fluid">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-10 offset-md-1 col-lg-3 offset-lg-0">
+          <div class="col-md-5 offset-md-1 col-lg-2 offset-lg-0">
             <div class="sidebar">
               <!-- Dashboard Links -->
               <div class="dashboard-links">
                 <ul>
                   <li>
-                    <a class="my-1 d-inline-block" href="">All Products</a>
+                    <a
+                      class="my-1 d-inline-block"
+                      id="all-products"
+                      href="javascript:;"
+                      >All Products</a
+                    >
                   </li>
-                  <li><a class="my-1 d-inline-block" href="">Monitors</a></li>
                   <li>
-                    <a class="my-1 d-inline-block" href=""
+                    <a
+                      class="my-1 d-inline-block"
+                      id="monitors"
+                      href="javascript:;"
+                      >Monitors</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="my-1 d-inline-block"
+                      id="keyboards"
+                      href="javascript:;"
                       >Keyboards and mice</a
                     >
                   </li>
-                  <li><a class="my-1 d-inline-block" href="">Headphones</a></li>
-                  <li><a class="my-1 d-inline-block" href="">Speakers</a></li>
+                  <li>
+                    <a
+                      class="my-1 d-inline-block"
+                      id="headphones"
+                      href="javascript:;"
+                      >Headphones</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="my-1 d-inline-block"
+                      id="speakers"
+                      href="javascript:;"
+                      >Speakers</a
+                    >
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
-          <div class="col-md-10 offset-md-1 col-lg-9 offset-lg-0">
+          <div class="col-md-10 col-lg-10 d-flex justify-content-center">
             <!-- Products header -->
-            <div class="header-message">
+            <!-- <div class="header-message">
               <h2>Edit profile</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation
-              </p>
-            </div>
+            </div> -->
             <!-- products -->
-            <div class="container-fluid products-container"></div>
+            <div
+              class="
+                products-container
+                container-fluid
+                col-12
+                d-flex
+                flex-wrap
+                align-content-center
+                justify-content-center
+              "
+            ></div>
           </div>
         </div>
       </div>
@@ -248,6 +282,7 @@
     ></script>
 
     <!-- My JS file -->
+    <script src="./script/peripherals.js"></script>
     <script src="./script/script.js"></script>
   </body>
 </html>
