@@ -56,6 +56,9 @@
 
 body {
   background-color: rgb(223, 223, 223);
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 ul {
   list-style-type: none;
@@ -63,10 +66,7 @@ ul {
 a {
   text-decoration: none;
 }
-/* .main-container {
-  max-width: 90%;
-  margin: 0 auto;
-} */
+
 .logo {
   display: block;
   width: 150px;
@@ -227,5 +227,25 @@ Admin Page
     position: fixed;
     top: 100px;
     left: 0px;
+  }
+}
+
+/* embeded youtube video on system page */
+iframe {
+  width: 1000px;
+  height: 563px;
+}
+
+@media (max-width: 994px) {
+  iframe {
+    width: 650px;
+    height: 366px;
+  }
+}
+
+@media (max-width: 768px) {
+  iframe {
+    width: 450px;
+    height: 253px;
   }
 }

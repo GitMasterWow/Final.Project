@@ -22,14 +22,14 @@ window.onload = () => {
         output += `  <div class="py-5">
           <div class="container px-4 px-lg-5 my-5">
             <div class="row gx-4 gx-lg-5 align-items-center">
-              <div class="col-md-4">
+              <div class="col-md-6 col-xl-6">
                 <img
                   class="card-img mb-5 mb-md-0"
                   src=${product.image}
                   alt=${product.name}
                 />
               </div>
-              <div class="col-md-8">
+              <div class="col-md-6 col-xl-6">
                 <h1 class="display-5 fw-bolder details-name">${product.name}</h1>
                 <div class="fs-5 mb-5">
                   <h5>$<span class="details-price">${product.price}</span></h5>
