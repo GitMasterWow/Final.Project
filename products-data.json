@@ -52,9 +52,9 @@
   {
     "name": "Intel Core i5-11400",
     "image": "https://images.unsplash.com/photo-1555617778-02518510b9fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-    "price": 80,
+    "price": 299.99,
     "description": "Intel Core i5-11400 - Core i5 11th Gen Rocket Lake 6-Core 2.6 GHz LGA 1200 65W Intel UHD Graphics 730 Desktop Processor",
-    "quantity": 229.99,
+    "quantity": 80,
     "category": "cpus",
     "mainCategory": "components",
     "id": "6"

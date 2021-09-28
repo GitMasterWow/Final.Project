@@ -257,7 +257,7 @@
               </div>
               <div class="mb-3">
                 <label for="product-price" class="col-form-label"
-                  >Product price</label
+                  >Product price ($)</label
                 >
                 <input
                   type="number"
@@ -284,6 +284,185 @@
                 <select
                   aria-label="Product category"
                   id="product-category"
+                  class="custom-select border-secondary rounded"
+                >
+                  <option>Select a category</option>
+                  <optgroup label="Components">
+                    <option value="cpus">CPU's</option>
+                    <option value="motherboards">Motherboards</option>
+                    <option value="vgds">Video Graphic Devices</option>
+                    <option value="case">Computer Cases</option>
+                    <option value="psu">Power Supplies</option>
+                    <option value="memory">Memory</option>
+                    <option value="storage">Storage</option>
+                  </optgroup>
+                  <optgroup label="Peripherals">
+                    <option value="monitors">Monitors</option>
+                    <option value="keyboards">Keyboards and mice</option>
+                    <option value="headphones">Headphones</option>
+                    <option value="speakers">Speakers</option>
+                  </optgroup>
+                  <option value="systems"><b>Prebuilt Systems</b></option>
+                </select>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              data-bs-dismiss="modal"
+              class="btn btn-primary"
+              id="add-product-btn"
+            >
+              Add product
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Products list  -->
+    <div class="container table-container">
+      <table class="table caption-top border-info">
+        <caption>
+          <h2>List of products</h2>
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Image</th>
+            <th scope="col">Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Quantity</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody class="table-body">
+          <!-- <tr>
+            <td>
+              <img
+                src="https://p1.akcdn.net/full/402110976.asus-geforce-gtx-1060-dual-oc-6gb-gddr5-192bit-dual-gtx1060-o6g.jpg"
+                alt="gtx1060"
+                class="table-img"
+              />
+            </td>
+            <td>Nvidia GTX1060 6Gb</td>
+            <td>230$</td>
+            <td>34</td>
+            <td>
+              <button
+                type="button"
+                class="text-primary p-2 border-0 remove-btn"
+                data-bs-toggle="modal"
+                data-bs-target="#remove-product"
+              >
+                <i class="bi bi-pencil-square"></i>
+              </button>
+            </td>
+            <td>
+              <button
+                type="button"
+                class="text-primary p-2 border-0 remove-btn"
+                data-bs-toggle="modal"
+                data-bs-target="#remove-product"
+              >
+                Remove
+              </button>
+            </td>
+          </tr> -->
+        </tbody>
+      </table>
+    </div>
+
+    <!-- edit product modal -->
+    <div
+      class="modal fade"
+      id="edit-product-modal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Edit product</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="edit-product-name" class="col-form-label"
+                  >Product name</label
+                >
+                <input
+                  type="text"
+                  aria-label="Product name"
+                  id="edit-product-name"
+                  class="form-control"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="edit-product-image" class="col-form-label"
+                  >Product image (link)</label
+                >
+                <input
+                  type="text"
+                  aria-label="Product image"
+                  id="edit-product-image"
+                  class="form-control"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="edit-product-description" class="col-form-label"
+                  >Product description</label
+                >
+                <textarea
+                  class="form-control"
+                  aria-label="Product description"
+                  id="edit-product-description"
+                ></textarea>
+              </div>
+              <div class="mb-3">
+                <label for="edit-product-price" class="col-form-label"
+                  >Product price</label
+                >
+                <input
+                  type="number"
+                  aria-label="Product price"
+                  id="edit-product-price"
+                  class="form-control"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="edit-product-quantity" class="col-form-label"
+                  >Product quantity</label
+                >
+                <input
+                  type="number"
+                  aria-label="Product quantity"
+                  id="edit-product-quantity"
+                  class="form-control"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="edit-product-category" class="col-form-label"
+                  >Product category</label
+                >
+                <select
+                  aria-label="Product category"
+                  id="edit-product-category"
                   class="custom-select border-secondary rounded"
                 >
                   <option>Select a category</option>
@@ -317,81 +496,17 @@
             <button
               type="button"
               data-bs-dismiss="modal"
-              class="btn btn-primary"
+              class="btn btn-success save-edit-btn"
             >
-              Add product
+              Save changes
             </button>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Products list  -->
-    <div class="container table-container">
-      <table class="table caption-top border-info">
-        <caption>
-          <h2>List of products</h2>
-        </caption>
-        <thead>
-          <tr>
-            <th scope="col">Image</th>
-            <th scope="col">Name</th>
-            <th scope="col">Price</th>
-            <th scope="col">Quantity</th>
-            <th scope="col"></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
-              <img
-                src="https://p1.akcdn.net/full/402110976.asus-geforce-gtx-1060-dual-oc-6gb-gddr5-192bit-dual-gtx1060-o6g.jpg"
-                alt="gtx1060"
-                class="table-img"
-              />
-            </td>
-            <td>Nvidia GTX1060 6Gb</td>
-            <td>230$</td>
-            <td>34</td>
-            <td>
-              <button
-                type="button"
-                class="text-primary p-2 border-0 remove-btn"
-                data-bs-toggle="modal"
-                data-bs-target="#remove-product"
-              >
-                Remove
-              </button>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <img
-                src="https://p1.akcdn.net/full/402110976.asus-geforce-gtx-1060-dual-oc-6gb-gddr5-192bit-dual-gtx1060-o6g.jpg"
-                alt="gtx1060"
-                class="table-img"
-              />
-            </td>
-            <td>Nvidia GTX1060 6Gb</td>
-            <td>230$</td>
-            <td>34</td>
-            <td>
-              <button
-                type="button"
-                class="text-primary p-2 border-0 remove-btn"
-                data-bs-toggle="modal"
-                data-bs-target="#remove-product"
-              >
-                Remove
-              </button>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
     <!-- Remove product modal -->
-    <div class="modal" id="remove-product" tabindex="-1">
+    <div class="modal" id="remove-product-modal" tabindex="-1">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-body">
@@ -407,7 +522,7 @@
             </button>
             <button
               type="button"
-              class="btn btn-primary"
+              class="btn btn-danger delete-btn"
               data-bs-dismiss="modal"
             >
               Yes, delete product.
@@ -436,6 +551,7 @@
     ></script>
 
     <!-- My JS file -->
-    <script src="./script/script.js"></script>
+    <script src="./script/admin.js"></script>
+    <!-- <script src="./script/script.js"></script> -->
   </body>
 </html>

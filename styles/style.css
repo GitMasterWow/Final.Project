@@ -249,3 +249,9 @@ iframe {
     height: 253px;
   }
 }
+.edit-btn {
+  background: none;
+}
+.table-img {
+  max-height: 4rem;
+}
