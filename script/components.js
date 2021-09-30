@@ -46,8 +46,9 @@ console.log(componentsData);
 sidebar.addEventListener("click", (ev) => {
   let output = "";
   let categoryID = ev.target.id;
-  if (categoryID == "all-products") {
-    console.log("all products");
+  if (!categoryID) {
+    output = '<h1 class="mt-4">Please select a category</h1>';
+  } else if (categoryID == "all-products") {
     componentsData.forEach((product) => {
       output += `   
                 <div class="card product-card col-md-4 m-3 col-sm-6 col-xl-3">

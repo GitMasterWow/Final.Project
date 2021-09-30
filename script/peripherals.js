@@ -44,7 +44,9 @@ function showproducts(data) {
 sidebar.addEventListener("click", (ev) => {
   let output = "";
   let categoryID = ev.target.id;
-  if (categoryID == "all-products") {
+  if (!categoryID) {
+    output = '<h1 class="mt-4">Please select a category</h1>';
+  } else if (categoryID == "all-products") {
     console.log("all products");
     componentsData.forEach((product) => {
       output += `   

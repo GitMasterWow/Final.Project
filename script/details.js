@@ -2,10 +2,9 @@ window.onload = () => {
   let searchParamString = window.location.search;
 
   const searchParam = new URLSearchParams(searchParamString);
-
+  // here the id is extracted from the url querry
   console.log(searchParam.get("id"));
   const id = searchParam.get("id");
-  // document.write("Detaliile produsului cu id-ul " + id);
 
   fetch("products-data.json")
     .then((response) => response.json())
@@ -17,6 +16,7 @@ window.onload = () => {
   function displayProductDetails(data) {
     let detailsContainer = document.querySelector(".details-container");
     let output = "";
+
     data.forEach((product) => {
       if (product.id == id) {
         output += `  <div class="py-5">
@@ -36,7 +36,7 @@ window.onload = () => {
                   <p>Products in stock: <span class="details-stock">${product.quantity}</span></p>
                 </div>
                 <div class="d-flex">
-                  <label class="m-2" for="inputQuantity"><h5>Qt</h5></label>
+                  <label class="m-2" for="inputQuantity"><h5>Qt (max 10 items)</h5></label>
                   <input
                     class="form-control text-center me-3 p-0"
                     id="inputQuantity"
@@ -46,7 +46,7 @@ window.onload = () => {
                     style="max-width: 4rem"
                   />
                   <button
-                    class="btn btn-outline-dark flex-shrink-0"
+                    class="btn btn-outline-dark flex-shrink-0 add-to-cart-btn"
                     type="button"
                   >
                     <i class="bi-cart-fill me-1"></i>
@@ -60,8 +60,29 @@ window.onload = () => {
             </div>
           </div>
         </div>`;
+        detailsContainer.innerHTML = output;
+        addProductToCart(product);
       }
     });
-    detailsContainer.innerHTML = output;
   }
 };
+let cart = [];
+
+function addProductToCart(product) {
+  let selectedProduct = product; // here the product data is put inside selectedProduct variable
+  console.log(selectedProduct);
+  let addToCartBtn = document.querySelector(".add-to-cart-btn");
+  addToCartBtn.addEventListener("click", () => {
+    selectedProduct.qtToBuy = document.querySelector("#inputQuantity").value;
+    if (selectedProduct.qtToBuy >= 10) {
+      selectedProduct.qtToBuy = 10;
+      document.querySelector("#inputQuantity").value = 10;
+    } else {
+      selectedProduct.qtToBuy = document.querySelector("#inputQuantity").value;
+    }
+    cart.push(selectedProduct);
+    console.log(selectedProduct.qtToBuy);
+    console.log(cart);
+    localStorage.setItem("cart", JSON.stringify(cart));
+  });
+}

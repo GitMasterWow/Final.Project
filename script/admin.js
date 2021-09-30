@@ -23,7 +23,7 @@ function listProducts(product) {
         class="table-img"
       />
     </td>
-    <td>${product[i].name}</td>
+    <td> <a href="./details.html?id=${product[i].id}" data-bs-toggle="tooltip" data-bs-placement="top" title="See product details">${product[i].name}</a></td>
     <td>${product[i].price}</td>
     <td>${product[i].quantity}</td>
     <td>
@@ -150,6 +150,8 @@ productsTable.addEventListener("click", (ev) => {
       document.querySelector("#edit-product-description").value =
         product.description;
       document.querySelector("#edit-product-quantity").value = product.quantity;
+      document.querySelector("#edit-product-category").selected =
+        product.quantity;
     }
 
     document.querySelector(".save-edit-btn").addEventListener("click", () => {

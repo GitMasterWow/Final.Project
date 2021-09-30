@@ -193,7 +193,7 @@
     <div class="container mt-5">
       <div class="card">
         <div class="row">
-          <div class="col-md-8 col-sm-12 cart">
+          <div class="col-md-8 col-sm-12 cart cart-products">
             <div class="back-to-shop">
               <a class="btn" href="./components.html"
                 ><i class="fas fa-arrow-left"></i>
@@ -207,35 +207,39 @@
                 </div>
               </div>
             </div>
-            <div class="row border-top border-bottom">
-              <div class="row main align-items-center">
-                <div class="col-2">
-                  <img
-                    class="img-thumbnail mx-2"
-                    src="https://p1.akcdn.net/full/638089527.msi-geforce-gtx-1660-6gb-gddr6-192bit-gtx-1660-super-gaming-x.jpg"
-                  />
+            <div class="row cart-products-container">
+              <div class="row border-top border-bottom cart-product">
+                <div class="row main align-items-center">
+                  <div class="col-2">
+                    <img
+                      class="img-thumbnail mx-2"
+                      src="https://p1.akcdn.net/full/638089527.msi-geforce-gtx-1660-6gb-gddr6-192bit-gtx-1660-super-gaming-x.jpg"
+                    />
+                  </div>
+                  <div class="col">
+                    <div class="row">
+                      <h5 class="item-name">GTX1660 6Gb</h5>
+                    </div>
+                  </div>
+                  <div class="col item-count">
+                    <button class="btn border-none">
+                      <i class="fas fa-minus"></i>
+                    </button>
+                    <span class="item-qt fs-4">1</span>
+                    <button class="btn border-none">
+                      <i class="fas fa-plus"></i>
+                    </button>
+                  </div>
+                  <div class="col"><h5 class="item-price">$ 44.00</h5></div>
+                  <button
+                    type="button"
+                    class="btn-close delete-cart-item"
+                    aria-label="Close"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="bottom"
+                    title="Delete item from cart"
+                  ></button>
                 </div>
-                <div class="col">
-                  <div class="row"><h5 class="item-name">GTX1660 6Gb</h5></div>
-                </div>
-                <div class="col item-count">
-                  <button class="btn border-none">
-                    <i class="fas fa-minus"></i>
-                  </button>
-                  <span class="item-qt fs-4">1</span>
-                  <button class="btn border-none">
-                    <i class="fas fa-plus"></i>
-                  </button>
-                </div>
-                <div class="col"><h5 class="item-price">$ 44.00</h5></div>
-                <button
-                  type="button"
-                  class="btn-close delete-cart-item"
-                  aria-label="Close"
-                  data-bs-toggle="tooltip"
-                  data-bs-placement="bottom"
-                  title="Delete item from cart"
-                ></button>
               </div>
             </div>
           </div>
@@ -300,6 +304,7 @@
     ></script>
 
     <!-- My JS file -->
-    <script src="./script/script.js"></script>
+    <script src="./script/cart.js"></script>
+    <!-- <script src="./script/script.js"></script> -->
   </body>
 </html>
