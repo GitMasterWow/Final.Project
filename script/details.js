@@ -37,10 +37,11 @@ window.onload = () => {
                 <div class="d-flex">
                   <label class="m-2" for="inputQuantity"><h5>Qt (max 10 items)</h5></label>
                   <input
-                    class="form-control text-center me-3 p-0"
+                    class="form-control text-center me-3 p-1"
                     id="inputQuantity"
                     type="number"
                     value="1"
+                    min="1"
                     max="10"
                     style="max-width: 4rem"
                   />
@@ -60,12 +61,12 @@ window.onload = () => {
           </div>
         </div>`;
         detailsContainer.innerHTML = output;
+        console.log(product.id);
         addProductToCart(product);
       }
     });
   }
 };
-let cart = [];
 
 function addProductToCart(product) {
   let selectedProduct = product; // here the product data is put inside selectedProduct variable
@@ -79,9 +80,26 @@ function addProductToCart(product) {
     } else {
       selectedProduct.qtToBuy = document.querySelector("#inputQuantity").value;
     }
-    cart.push(selectedProduct);
-    console.log(selectedProduct.qtToBuy);
-    console.log(cart);
+    // iau continutul cosului si il parsez, daca nu e nimic creez un array gol in care fac push, daca e ceva fac push la noul produs
+    // I take the products from local storage, if they are any
+    let cartItems = localStorage.getItem("cart");
+    //and i make an empty array to store the products taken
+    let cart = [];
+    //if they are
+    if (cartItems) {
+      //i create a new variable in wich i transform the cart content in an array of objects
+      cart = JSON.parse(cartItems);
+      // and then i add to that array my product
+      cart.push(selectedProduct);
+    } else {
+      //and add my product
+      cart.push(selectedProduct);
+    }
+    //-------------------------
+    // here i must check is the number in input is bigger than 0
+    //-------------------------
+
+    //and then i send the array back to local storage
     localStorage.setItem("cart", JSON.stringify(cart));
   });
 }

@@ -241,6 +241,9 @@ iframe {
     width: 650px;
     height: 366px;
   }
+  .sidebar li {
+    text-align: center;
+  }
 }
 
 @media (max-width: 768px) {
