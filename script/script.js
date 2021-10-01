@@ -4,7 +4,7 @@
 
 let exampleProductsContainer = document.querySelector(".example-products");
 
-fetch("products-data.json")
+fetch("https://61363d1b8700c50017ef54c5.mockapi.io/products")
   .then((response) => response.json())
   .then((data) => displayRandomProducts(data))
   .catch((error) => {

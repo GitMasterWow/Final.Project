@@ -3,7 +3,7 @@ let sidebar = document.querySelector(".dashboard-links");
 
 let componentsData = []; // in this array i will store all the products in components category
 
-fetch("products-data.json")
+fetch("https://61363d1b8700c50017ef54c5.mockapi.io/products")
   .then((response) => response.json())
   .then((data) => showproducts(data))
   .catch((error) => {

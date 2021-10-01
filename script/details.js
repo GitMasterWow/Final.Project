@@ -3,10 +3,9 @@ window.onload = () => {
 
   const searchParam = new URLSearchParams(searchParamString);
   // here the id is extracted from the url querry
-  console.log(searchParam.get("id"));
   const id = searchParam.get("id");
 
-  fetch("products-data.json")
+  fetch("https://61363d1b8700c50017ef54c5.mockapi.io/products")
     .then((response) => response.json())
     .then((data) => displayProductDetails(data))
     .catch((error) => {
