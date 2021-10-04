@@ -48,6 +48,7 @@ window.onload = () => {
                   <button
                     class="btn btn-outline-dark flex-shrink-0 add-to-cart-btn"
                     type="button"
+                    data-bs-toggle="modal" data-bs-target="#confirmationModal"
                   >
                     <i class="bi-cart-fill me-1"></i>
                     Add to cart
@@ -60,16 +61,21 @@ window.onload = () => {
             </div>
           </div>
         </div>`;
+
         detailsContainer.innerHTML = output;
-        console.log(product.id);
+
         addProductToCart(product);
       }
     });
   }
+  let cartItems = localStorage.getItem("cart");
+  let cart = JSON.parse(cartItems);
+  updateCartIcon(cart);
 };
 
 function addProductToCart(product) {
   let selectedProduct = product; // here the product data is put inside selectedProduct variable
+  selectedProduct.qtToBuy;
   console.log(selectedProduct);
   let addToCartBtn = document.querySelector(".add-to-cart-btn");
   addToCartBtn.addEventListener("click", () => {
@@ -90,16 +96,39 @@ function addProductToCart(product) {
       //i create a new variable in wich i transform the cart content in an array of objects
       cart = JSON.parse(cartItems);
       // and then i add to that array my product
-      cart.push(selectedProduct);
+      checkIfProductInCart(cart, selectedProduct.id, selectedProduct);
     } else {
       //and add my product
       cart.push(selectedProduct);
     }
+
     //-------------------------
     // here i must check is the number in input is bigger than 0
     //-------------------------
 
     //and then i send the array back to local storage
     localStorage.setItem("cart", JSON.stringify(cart));
+
+    // window.location.reload();
   });
+}
+
+function checkIfProductInCart(arr, id, product) {
+  // first parameter is the array with products from local storage,
+  // second param is the id of uor selected product
+  // third is our selected product
+  const found = arr.some((item) => item.id === id); // here we chech if any of local storage items has the id of our product
+
+  // now found is a boolean , wich we use to alert a message that the item already exist in cart, or add it to cart if it doesn't
+  if (found) {
+    alert("Acest produs exista deja in cos!");
+  } else if (!found) {
+    arr.push(product);
+  }
+  return arr;
+}
+
+function updateCartIcon(arr) {
+  const cartIcon = document.querySelector(".badge");
+  cartIcon.innerHTML = arr.length;
 }

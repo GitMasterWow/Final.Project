@@ -79,7 +79,7 @@ sidebar.addEventListener("click", (ev) => {
             <!-- Product image-->
             <img class="card-img-top" src=${product.image} alt=${product.name} />
             <!-- Product details-->
-            <div class="card-body p-4">
+            <div class="card-body p-2">
                 <div class="text-center">
                     <!-- Product name-->
                     <h5 class="fw-bolder">${product.name}</h5>

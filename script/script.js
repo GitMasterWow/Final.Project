@@ -65,7 +65,7 @@ function displayRandomComponents(product) {
   });
   output += `
     <div
-      class="col mb-5 d-flex align-self-center justify-content-center"
+      class="col mb-5 col-sm-12 d-flex align-self-center justify-content-center"
     >
       <button type="button" class="btn">
         <a

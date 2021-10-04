@@ -39,6 +39,7 @@ function listProducts(product) {
     <td>
       <button
         type="button"
+        id=${product[i].id}
         class="text-primary p-2 border-0 remove-btn"
         data-bs-toggle="modal"
         data-bs-target="#remove-product-modal"
