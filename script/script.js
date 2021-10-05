@@ -56,8 +56,8 @@ function displayRandomComponents(product) {
             </div>
         </div>
         <!-- Product actions-->
-        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-            <div class="text-center"><a class="btn btn-outline-dark mt-auto details-btn" href="./details.html?id=${product.id}">Details</a></div>
+        <div class="row bg-transparent">
+            <div class="container mb-4 text-center"><a class="btn btn-outline-dark mt-auto details-btn" href="./details.html?id=${product.id}">Details</a></div>
         </div>
         </div>
         </div>`;

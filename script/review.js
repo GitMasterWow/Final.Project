@@ -5,37 +5,29 @@ const reviews = [
     id: 1,
     name: "susan smith",
     job: "web developer",
-    img:
-      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg",
-    text:
-      "I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry",
+    img: "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg",
+    text: "I requested a quote from this company and I received a whole custom build quote the very next day. The price is unmatched and so is the quality. The PC took less than a week to build and it’s been working wonders for me. If anyone is looking to get a PC, this place is definitely it.",
   },
   {
     id: 2,
     name: "anna johnson",
     job: "HR",
-    img:
-      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883409/person-2_np9x5l.jpg",
-    text:
-      "Helvetica artisan kinfolk thundercats lumbersexual blue bottle. Disrupt glossier gastropub deep v vice franzen hell of brooklyn twee enamel pin fashion axe.photo booth jean shorts artisan narwhal.",
+    img: "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883409/person-2_np9x5l.jpg",
+    text: "His rates are extrememly reasonable and will drop it if you can find a better price. He also is very professional and usually has all products on his site in stock.",
   },
   {
     id: 3,
     name: "peter jones",
     job: "web developer",
-    img:
-      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg",
-    text:
-      "Sriracha literally flexitarian irony, vape marfa unicorn. Glossier tattooed 8-bit, fixie waistcoat offal activated charcoal slow-carb marfa hell of pabst raclette post-ironic jianbing swag.",
+    img: "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg",
+    text: "Great work with the Desktop they made for me. Products and build are as described everything runs and works great! I am greatly satisfied for choosing them to create my pc.",
   },
   {
     id: 4,
     name: "bill anderson",
     job: "web designer",
-    img:
-      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883423/person-4_t9nxjt.jpg",
-    text:
-      "Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic. ",
+    img: "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883423/person-4_t9nxjt.jpg",
+    text: "Purchased a gaming PC in Jan. Pricing was competitive and final product was great and was delivered to my door. All expectations exceeded. Nice guy too. Highly recommend!",
   },
 ];
 // select items
@@ -53,15 +45,11 @@ let currentItem = 0;
 
 // load initial item
 window.addEventListener("DOMContentLoaded", function () {
-  
- 
-    const item = reviews[currentItem];
-    img.src = item.img;
-    author.textContent = item.name;
-    job.textContent = item.job;
-    info.textContent = item.text;
-  
- 
+  const item = reviews[currentItem];
+  img.src = item.img;
+  author.textContent = item.name;
+  job.textContent = item.job;
+  info.textContent = item.text;
 });
 
 // show person based on item
@@ -82,18 +70,19 @@ nextBtn.addEventListener("click", function () {
 });
 // show prev person
 prevBtn.addEventListener("click", function () {
-  let reviewsOnPageCheck = document.body.contains(document.getElementById("reviews-container"));
-  if(reviewsOnPageCheck){
-  currentItem--;
-  if (currentItem < 0) {
-    currentItem = reviews.length - 1;
-  }
-  showPerson(currentItem);
+  let reviewsOnPageCheck = document.body.contains(
+    document.getElementById("reviews-container")
+  );
+  if (reviewsOnPageCheck) {
+    currentItem--;
+    if (currentItem < 0) {
+      currentItem = reviews.length - 1;
+    }
+    showPerson(currentItem);
   }
 });
 // show random person
 randomBtn.addEventListener("click", function () {
   currentItem = Math.floor(Math.random() * reviews.length);
   showPerson(currentItem);
-  
 });

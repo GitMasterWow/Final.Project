@@ -209,6 +209,7 @@ Admin Page
 
 .product-card {
   box-shadow: var(--light-shadow);
+  height: 23rem;
   max-width: 17rem;
   min-width: 16rem;
 }
@@ -269,6 +270,8 @@ iframe {
   visibility: visible;
 }
 
-.products-container {
-  min-height: 70vh;
+.products-container,
+.details-container,
+.cart-container {
+  min-height: 65vh;
 }
