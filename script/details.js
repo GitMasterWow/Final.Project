@@ -68,9 +68,6 @@ window.onload = () => {
       }
     });
   }
-  let cartItems = localStorage.getItem("cart");
-  let cart = JSON.parse(cartItems);
-  updateCartIcon(cart);
 };
 
 function addProductToCart(product) {
@@ -126,9 +123,4 @@ function checkIfProductInCart(arr, id, product) {
     arr.push(product);
   }
   return arr;
-}
-
-function updateCartIcon(arr) {
-  const cartIcon = document.querySelector(".badge");
-  cartIcon.innerHTML = arr.length;
 }

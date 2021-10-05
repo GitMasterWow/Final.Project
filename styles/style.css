@@ -255,5 +255,20 @@ iframe {
   background: none;
 }
 .table-img {
-  max-height: 4rem;
+  max-height: 10rem;
+}
+.fa-minus,
+.fa-plus {
+  width: 100%;
+}
+
+.row.hidden {
+  visibility: none;
+}
+.row.visible {
+  visibility: visible;
+}
+
+.products-container {
+  min-height: 70vh;
 }
