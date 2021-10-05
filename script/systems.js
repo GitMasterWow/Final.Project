@@ -1,3 +1,5 @@
+import { ui } from "./ui.js";
+
 let productsContainer = document.querySelector(".products-container");
 
 fetch("https://61363d1b8700c50017ef54c5.mockapi.io/products")
@@ -38,3 +40,5 @@ function showproducts(data) {
     productsContainer.innerHTML = output;
   });
 }
+
+ui.updateCartIcon();

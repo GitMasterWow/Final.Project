@@ -1,3 +1,5 @@
+import { ui } from "./ui.js";
+
 productsTable = document.querySelector(".table-body");
 
 window.addEventListener("DOMContentLoaded", () => {
@@ -7,6 +9,8 @@ window.addEventListener("DOMContentLoaded", () => {
     .catch((error) => {
       console.log(error);
     });
+
+  ui.updateCartIcon();
 });
 
 //   Show all the products in page

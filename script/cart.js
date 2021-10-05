@@ -1,4 +1,4 @@
-// const cartProductsContainer = document.querySelector(".cart-products");
+import { ui } from "./ui.js";
 
 window.onload = () => {
   let cart = localStorage.getItem("cart");
@@ -9,7 +9,7 @@ window.onload = () => {
     cartObjects.map(
       (item) =>
         (output += `
-        <tr class ="table-row">
+        <tr class ="table-row container-fluid col-sm-12">
         <th scope="row">${index++}</th>
         <td><img class="table-img mx-2" src="${item.image}" /></td>
         <td><h5 class="item-name">${item.name}</h5></td>
@@ -41,6 +41,7 @@ window.onload = () => {
     changeQuantity();
     updateTotalPrice();
     deleteProductFromCart();
+    ui.updateCartIcon();
   }
   // because i populate the page on windows load, i must call the other functions inside the onload event
 };

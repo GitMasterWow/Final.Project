@@ -272,6 +272,7 @@ iframe {
 
 .products-container,
 .details-container,
-.cart-container {
+.cart-container,
+.contact-container {
   min-height: 65vh;
 }

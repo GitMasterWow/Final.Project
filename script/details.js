@@ -1,3 +1,4 @@
+import { ui } from "./ui.js";
 window.onload = () => {
   let searchParamString = window.location.search;
 
@@ -65,6 +66,7 @@ window.onload = () => {
         detailsContainer.innerHTML = output;
 
         addProductToCart(product);
+        ui.updateCartIcon();
       }
     });
   }

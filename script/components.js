@@ -1,3 +1,5 @@
+import { ui } from "./ui.js";
+
 let productsContainer = document.querySelector(".products-container");
 let sidebar = document.querySelector(".dashboard-links");
 
@@ -40,7 +42,6 @@ function showproducts(data) {
     productsContainer.innerHTML = output;
   });
 }
-console.log(componentsData);
 
 // here will add functionaliti for the sidebar
 sidebar.addEventListener("click", (ev) => {
@@ -98,3 +99,5 @@ sidebar.addEventListener("click", (ev) => {
   }
   productsContainer.innerHTML = output;
 });
+
+ui.updateCartIcon();

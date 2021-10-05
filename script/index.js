@@ -1,3 +1,5 @@
+import { ui } from "./ui.js";
+
 // ================================
 // functionality for product examples
 //=================================
@@ -29,7 +31,6 @@ function displayRandomComponents(product) {
   let number5 = Math.floor(Math.random() * product.length + 1);
   let number6 = Math.floor(Math.random() * product.length + 1);
   let number7 = Math.floor(Math.random() * product.length + 1);
-  console.log(number1, number2, number3);
   let output = "";
   product.forEach((product) => {
     if (
@@ -86,3 +87,5 @@ function displayRandomComponents(product) {
   exampleProductsContainer.innerHTML = output;
 }
 //==============================================
+
+ui.updateCartIcon();
