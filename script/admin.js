@@ -1,6 +1,6 @@
 import { ui } from "./ui.js";
 
-productsTable = document.querySelector(".table-body");
+let productsTable = document.querySelector(".table-body");
 
 window.addEventListener("DOMContentLoaded", () => {
   fetch("https://61363d1b8700c50017ef54c5.mockapi.io/products")
