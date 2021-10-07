@@ -107,8 +107,6 @@ function addProductToCart(product) {
 
     //and then i send the array back to local storage
     localStorage.setItem("cart", JSON.stringify(cart));
-
-    // window.location.reload();
   });
 }
 
@@ -120,9 +118,8 @@ function checkIfProductInCart(arr, id, product) {
 
   // now found is a boolean , wich we use to alert a message that the item already exist in cart, or add it to cart if it doesn't
   if (found) {
-    let addToCartBtn = document.querySelector(".add-to-cart-btn");
-    addToCartBtn.data-bs-toggle = ""
-    alert("Acest produs exista deja in cos!");
+    let confirmationModal = document.querySelector(".modal-title");
+    confirmationModal.innerText = "You already added this product to cart!";
   } else if (!found) {
     arr.push(product);
   }
