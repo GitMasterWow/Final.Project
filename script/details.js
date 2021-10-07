@@ -120,6 +120,8 @@ function checkIfProductInCart(arr, id, product) {
 
   // now found is a boolean , wich we use to alert a message that the item already exist in cart, or add it to cart if it doesn't
   if (found) {
+    let addToCartBtn = document.querySelector(".add-to-cart-btn");
+    addToCartBtn.data-bs-toggle = ""
     alert("Acest produs exista deja in cos!");
   } else if (!found) {
     arr.push(product);
