@@ -12,7 +12,6 @@ fetch("https://61363d1b8700c50017ef54c5.mockapi.io/products")
     console.log(error);
   });
 
-// here all the products from components category are loaded and stored in an array
 function showproducts(data) {
   let output = "";
   data.forEach((product) => {
@@ -43,12 +42,13 @@ function showproducts(data) {
   });
 }
 
-// here will add functionaliti for the sidebar
+// functionality for the sidebar
 sidebar.addEventListener("click", (ev) => {
   let output = "";
   let categoryID = ev.target.id;
   if (!categoryID) {
-    output = '<h1 class="mt-4">Please select a category</h1>';
+    // if the user clicks inside the sidebar but not on a link, i want to keep the current output(products in page)
+    output = productsContainer.innerHTML;
   } else if (categoryID == "all-products") {
     componentsData.forEach((product) => {
       output += `   

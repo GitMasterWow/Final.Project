@@ -16,7 +16,6 @@ window.onload = () => {
   function displayProductDetails(data) {
     let detailsContainer = document.querySelector(".details-container");
     let output = "";
-
     data.forEach((product) => {
       if (product.id == id) {
         output += `  <div class="py-5">
@@ -85,8 +84,9 @@ function addProductToCart(product) {
     } else {
       selectedProduct.qtToBuy = document.querySelector("#inputQuantity").value;
     }
-    // iau continutul cosului si il parsez, daca nu e nimic creez un array gol in care fac push, daca e ceva fac push la noul produs
-    // I take the products from local storage, if they are any
+
+    // I take the products from local storage, if there is no product an empty array is created in wich the products are pushed,
+    // if it is we simply push the product
     let cartItems = localStorage.getItem("cart");
     //and i make an empty array to store the products taken
     let cart = [];
@@ -102,11 +102,12 @@ function addProductToCart(product) {
     }
 
     //-------------------------
-    // here i must check is the number in input is bigger than 0
+    // here i must check if the number in input is bigger than 0
     //-------------------------
 
     //and then i send the array back to local storage
     localStorage.setItem("cart", JSON.stringify(cart));
+    ui.updateCartIcon();
   });
 }
 

@@ -66,91 +66,10 @@
               <a class="nav-link" href="./about.html">About</a>
             </li>
             <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                PC Components
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a class="dropdown-item" href="./components.html"
-                    >All Components</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./components.html">CPUs</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./components.html"
-                    >Motherboards</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./components.html"
-                    >Video Graphic Devices</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./components.html"
-                    >Computer Cases</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./components.html"
-                    >Power Supplies</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./components.html">Memory</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./components.html">Storage</a>
-                </li>
-              </ul>
+              <a class="nav-link" href="./components.html"> PC Components </a>
             </li>
             <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Peripherals
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a class="dropdown-item" href="./peripherals.html"
-                    >All Peripherals</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./peripherals.html"
-                    >Monitors</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./peripherals.html"
-                    >Keyboards and mice</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./peripherals.html"
-                    >Headphones</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./peripherals.html"
-                    >Speakers</a
-                  >
-                </li>
-              </ul>
+              <a class="nav-link" href="./peripherals.html"> Peripherals </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="./systems.html"
@@ -237,8 +156,47 @@
                 <span class="total-price fw-bold">00.00</span>
               </div>
             </div>
-            <button class="btn btn-dark waves-effect waves-light my-5">
+            <button
+              class="btn btn-outline-dark m-4 flex-shrink-0 checkout-btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#checkoutModal"
+            >
               CHECKOUT
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Order confirmation modal -->
+    <div
+      class="modal fade"
+      id="checkoutModal"
+      tabindex="-1"
+      aria-labelledby="checkoutModal"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="checkoutModal">
+              Thank you for your order!
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
             </button>
           </div>
         </div>

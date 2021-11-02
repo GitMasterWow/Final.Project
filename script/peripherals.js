@@ -12,7 +12,6 @@ fetch("https://61363d1b8700c50017ef54c5.mockapi.io/products")
     console.log(error);
   });
 
-// pot dolosi asta pt un event listener pt navigatie si sidebar
 function showproducts(data) {
   let output = "";
   data.forEach((product) => {
@@ -47,7 +46,7 @@ sidebar.addEventListener("click", (ev) => {
   let output = "";
   let categoryID = ev.target.id;
   if (!categoryID) {
-    output = '<h1 class="mt-4">Please select a category</h1>';
+    output = productsContainer.innerHTML;
   } else if (categoryID == "all-products") {
     console.log("all products");
     componentsData.forEach((product) => {

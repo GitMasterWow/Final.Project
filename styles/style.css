@@ -57,6 +57,7 @@
 body {
   background-color: rgb(223, 223, 223);
   max-width: 100%;
+  min-height: 100vh;
   overflow-x: hidden;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -89,16 +90,19 @@ a {
   border-radius: 50px;
 }
 
+/* Navbar */
+nav li:hover {
+  border-radius: 10px;
+  background-color: rgb(226, 226, 226);
+  box-shadow: 0px 1px 2px rgb(196, 196, 196);
+}
+
 /* Carousel imgages */
 
 #carouselExampleCaptions img {
   max-height: 100%;
 }
-/*
-==============
-reviews section 
-==============
-*/
+/* reviews section */
 
 .underline {
   height: 0.25rem;
@@ -248,6 +252,12 @@ iframe {
     height: 253px;
   }
 }
+@media (max-width: 1200px) and (min-width: 990px) {
+  .logo {
+    display: none;
+  }
+}
+
 .edit-btn {
   background: none;
 }
@@ -270,5 +280,5 @@ iframe {
 .details-container,
 .cart-container,
 .contact-container {
-  min-height: 65vh;
+  min-height: 64.7vh;
 }
