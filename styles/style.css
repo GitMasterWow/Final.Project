@@ -70,9 +70,10 @@ a {
 
 .logo {
   display: block;
-  width: 150px;
+  width: 120px;
   height: auto;
   margin-right: 90px;
+  margin-left: 40px;
 }
 @media (max-width: 350px) {
   .navbar-brand {
